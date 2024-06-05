@@ -1,0 +1,69 @@
+:root {
+  --primary-color: rgb(73 194 113 / 80%);
+  --secondary-color: rgb(73 194 113 / 80%);
+
+  --primary-bg-color: rgb(73 194 113 / 80%);
+  --secondary-bg-color: rgb(73 194 113 / 80%);
+}
+
+.App {
+  text-align: center;
+}
+
+.App h1 {
+  font-size: 4.5rem;
+}
+
+.App h2 {
+  font-size: 3.5rem;
+}
+
+.App h3 {
+  font-size: 2.5rem;
+}
+/* .App {
+  background-color: #007BFF;
+} */
+
+.text-green {
+  color: var(--primary-color);
+}
+
+.img-hover,
+.img-hover:hover {
+  transition: all 0.5s ease;
+}
+
+.img-hover:hover {
+  transform: scale(1.03);
+}
+
+@media screen and (max-width: 768px) {
+  .App h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .App h1 {
+    font-size: 3rem;
+  }
+
+  .App h2 {
+    font-size: 2rem;
+  }
+
+  .App h3 {
+    font-size: 1.75rem;
+  }
+}
+
+.scrolled {
+  z-index: 999;
+  background-color: green !important;
+  opacity: 0.9 !important;
+}
+
+.scrolled a {
+  font-weight: bold;
+}

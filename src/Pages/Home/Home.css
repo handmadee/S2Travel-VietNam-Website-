@@ -1,0 +1,15 @@
+.home-page .recommended-section .container {
+  background-image: url(../../Assets/Images/panter1.jpeg);
+}
+
+.home-page .holiday-plan-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url(../../Assets/Images/bannerOut.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home-page .need-inspiration-section {
+  background-image: url(../../Assets/Images/need-inspiration-bg.jpg);
+}

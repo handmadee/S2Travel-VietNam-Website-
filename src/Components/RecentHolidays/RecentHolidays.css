@@ -1,0 +1,21 @@
+.recent-holidays .img-div {
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.recent-holidays .h5,
+.recent-holidays .price {
+  font-size: 1.5rem;
+}
+
+.cardItem {
+  height: 300px;
+}
+
+@media screen and (max-width: 576px) {
+  .recent-holidays .img-div {
+    height: 200px;
+  }
+}

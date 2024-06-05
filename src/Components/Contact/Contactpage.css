@@ -1,0 +1,56 @@
+.content {
+  margin-top: 40px;
+}
+
+.content.bg_grey {
+  background: #fafafa;
+}
+.bg_grey {
+  background: #f3f5f7;
+}
+.container {
+  position: relative;
+}
+.content.contact .info {
+  background: linear-gradient(62.87deg, #92ce8d 8.29%, #76d795 38.65%);
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.content.contact .info > p {
+  font-size: 20px;
+}
+
+.content.contact .contact-form h5 {
+  line-height: 1.5;
+  font-weight: 400;
+}
+.content.contact .info .item div strong {
+  font-size: 20px;
+}
+.content.contact .info .item .icon {
+  font-size: 25px;
+  flex: 0 0 30px;
+  width: 30px;
+}
+
+.content .info > div {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.content .info a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+.content.contact .contact-form .btn {
+  background: linear-gradient(62.87deg, #dfeede 8.29%, #76d795 38.65%);
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+}

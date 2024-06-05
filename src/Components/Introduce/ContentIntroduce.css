@@ -1,0 +1,238 @@
+.slidebar a {
+  text-decoration: none !important;
+  color: #000 !important;
+}
+.slidebar li {
+  list-style: none;
+}
+
+@media (min-width: 992px) {
+  .pb-lg-5,
+  .py-lg-5 {
+    padding-bottom: 3rem !important;
+  }
+}
+@media (min-width: 992px) {
+  .pt-lg-5,
+  .py-lg-5 {
+    padding-top: 3rem !important;
+  }
+}
+.container {
+  position: relative;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 990px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content .header-title {
+  font-weight: 600;
+  font-size: 18px;
+  position: relative;
+  border-bottom: 1px solid #e8e8e8;
+  line-height: 30px;
+  padding-top: 7px;
+  text-align: left;
+}
+
+.content .slidebar .widget-category {
+  padding: 30px 0 !important;
+}
+.content .slidebar .widget-box {
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.05);
+}
+
+.content .slidebar .widget-box {
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.05);
+}
+
+.fixed-mucluc {
+  position: fixed;
+  bottom: 90px;
+  cursor: pointer;
+  z-index: 9999;
+  background: #f5f5f5;
+  border: 2px solid #000;
+  padding: 10px 5px;
+  right: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.content .slidebar .widget-box .widget-title {
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+  position: relative;
+  font-size: 20px;
+  color: #0f4229;
+  font-weight: 700;
+}
+
+.content .slidebar .widget-category .widget-title-wrap {
+  padding: 0 30px;
+}
+
+.content .slidebar .widget-box .widget-title:before {
+  position: absolute;
+  content: "";
+  width: 15px;
+  border-bottom: 3px solid #dc7e98;
+  bottom: 0;
+  left: 0;
+}
+
+.content .slidebar .widget-box .widget-title:after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  border-bottom: 3px solid #dc7e98;
+  bottom: 0;
+  left: 22px;
+}
+
+.content .slidebar .widget-news .list-news-latest {
+  counter-reset: popular-counter;
+}
+
+.content .slidebar .widget-news .list-news-latest .item-article {
+  border-bottom: 1px #d3d3d3 dotted;
+  margin: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0.8rem 0;
+}
+
+.content .slidebar .widget-news .list-news-latest .item-article:before {
+  display: table;
+  content: " ";
+}
+
+.content .slidebar .widget-news .list-news-latest .item-article .post-image {
+  -ms-flex: 0 1 90px;
+  flex: 0 1 90px;
+  max-width: 90px;
+  position: relative;
+}
+
+.content .slidebar .widget-news .list-news-latest .item-article .post-content {
+  padding-left: 12px;
+  overflow: hidden;
+  -ms-flex: 1 1;
+  flex: 1 1;
+}
+
+.content .slidebar .widget-box.widget-social a {
+  width: 35px;
+  height: 35px;
+  line-height: 33px;
+  border: 1px solid #dc7e98;
+  color: #dc7e98;
+  text-align: center;
+  margin-right: 5px;
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+
+.content .slidebar .widget-box.widget-social a > i {
+  color: #dc7e98;
+}
+
+.item-article > .post-image > a > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.content .slidebar .widget-news .list-news-latest .item-article .post-content {
+  padding-left: 12px;
+  overflow: hidden;
+  -ms-flex: 1 1;
+  flex: 1 1;
+}
+.content
+  .slidebar
+  .widget-news
+  .list-news-latest
+  .item-article
+  .post-content
+  .title {
+  margin: 0 0 5px;
+  font-size: 14px;
+  line-height: 22px;
+  overflow: hidden;
+  max-height: 44px;
+  text-align: left;
+}
+
+.content
+  .slidebar
+  .widget-news
+  .list-news-latest
+  .item-article
+  .post-content
+  .title
+  a {
+  font-weight: 600;
+  text-align: left;
+}
+.post-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}

@@ -1,0 +1,22 @@
+.holiday-plan-section {
+  background-image: url(../../Assets/Images/bannerOut.jpeg);
+  height: 300px;
+  background-position: bottom;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+}
+
+.holiday-plan-section .bg-shape {
+  background-color: rgba(29, 28, 28, 0.27);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.contai h3,
+.contai p,
+.contai button {
+  z-index: 99;
+}

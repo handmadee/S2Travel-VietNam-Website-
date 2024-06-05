@@ -1,0 +1,86 @@
+@media (max-width: 768px) {
+  .hotline-widget-mobile {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    padding: 5px;
+    display: flex !important;
+  }
+}
+
+.hotline-widget-mobile {
+  display: none;
+}
+@media (max-width: 768px) {
+  .hotline-widget-mobile .zalo-mobile {
+    width: 65%;
+    background-color: #0082d0;
+    text-align: center;
+    padding-top: 6px;
+    margin-right: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .hotline-widget-mobile a {
+    display: inline-block;
+    border-radius: 3px;
+  }
+}
+a:hover {
+  text-decoration: none;
+  color: #ed1b24;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+.hotline-widget-mobile > a > span {
+  font-weight: bold;
+  margin-left: 10px;
+}
+@media (max-width: 768px) {
+  .hotline-widget-mobile .hotline {
+    width: 35%;
+    text-decoration: none;
+    background: #3fb801;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .hotline-widget-mobile a {
+    display: inline-block;
+    border-radius: 3px;
+  }
+}
+.hotline {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .hotline-widget-mobile .hotline i {
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hotline-widget-mobile .zalo-mobile img {
+    width: 20px;
+  }
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+@media (max-width: 768px) {
+  .hotline-widget-mobile .zalo-mobile span {
+    color: white;
+    font-size: 16px;
+  }
+}

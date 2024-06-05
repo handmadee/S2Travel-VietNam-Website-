@@ -1,0 +1,16 @@
+.last-holidays-section .h5 {
+  font-size: 1.5rem;
+}
+
+.last-holidays-section a {
+  font-size: 1.1rem;
+}
+
+.last-holidays-section .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.last-holidays-section .shadow {
+  border-radius: 18px;
+}
