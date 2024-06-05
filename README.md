@@ -1,10 +1,11 @@
-# React JS Travel Website | Bootstrap 5 Design
+# PROJECT S2 TRAVEL VIETNAM COMPANY
 
-## Tutorial YouTube link - [React JS Travel Website - Responsive ReactJS Project using Bootstrap 5](https://youtu.be/0uuPYVz6MHw?si=qbQSr-JUo70NakKT)
+# DEV: LEO PHAM - DESGIN BY CONSOLE.VN
 
 <img src="reactjs travel website.jpg" alt="reactjs travel website using bootstrap" />
 
 ## What did I use to develop this project?
+
 - [React JS](https://react.dev/) - Front-End JavaScript library
 - [Bootstrap](https://getbootstrap.com/) - CSS Framework
 - [Visual Studio Code Editor](https://code.visualstudio.com/) - source-code editor
