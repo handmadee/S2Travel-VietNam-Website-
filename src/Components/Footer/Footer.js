@@ -1,6 +1,5 @@
 import React from 'react';
 import './footer.css';
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
 function Footer() {
   return (
@@ -28,7 +27,7 @@ function Footer() {
               <p class="mb-2 "><i class="fas fa-globe-europe"></i> <strong>Website:</strong> <a href="http://hoaphuongtim.com">hoaphuongtim.com</a></p>
               <div class="item network_social">
                 <div class="d-flex align-items-center ">
-                  <a class="facebook_icon rounded mr-2 mr-xl-3" href="https://www.facebook.com/dulichhoaphuongtim/" target="_blank"><i class="fab fa-facebook-square"></i></a>                                <a class="youtube rounded mr-2 mr-xl-3" href="https://www.youtube.com/channel/UC3L8xIJH3tL6aTZI9NGrnzg" target="_blank"><i class="fab fa-youtube-square"></i></a>                                <a class="twitter_url rounded" href="https://goldweld.trustpass.alibaba.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>                            </div>
+                  <a class="facebook_icon rounded mr-2 mr-xl-3" href="https://www.facebook.com/dulichhoaphuongtim/" target="_blank" rel="noreferrer"><i class="fab fa-facebook-square"></i></a>                                <a class="youtube rounded mr-2 mr-xl-3" href="https://www.youtube.com/channel/UC3L8xIJH3tL6aTZI9NGrnzg" target="_blank" rel="noreferrer"><i class="fab fa-youtube-square"></i></a>                                <a class="twitter_url rounded" href="https://goldweld.trustpass.alibaba.com/" target="_blank" rel="noreferrer"><i class="fab fa-twitter-square"></i></a>                            </div>
               </div>
             </div>
             <div class="hotline-ft  d-none">

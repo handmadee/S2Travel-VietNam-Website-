@@ -26,7 +26,7 @@ function HotlineWidget() {
 
                 </div>
             </a>
-            <a href="https://zalo.me/0971691414" class="zalo" target="_blank">
+            <a href="https://zalo.me/0971691414" class="zalo" target="_blank" rel="noreferrer">
                 <img src={require('./../../Assets/Images/zalo.png')} alt="zalo" />
             </a>
         </div>

@@ -5,17 +5,13 @@ import SearchForm from '../../Components/SearchForm/SearchForm';
 import LastHolidaysSection from '../../Components/LastHolidaysSection/LastHolidaysSection';
 import RecommendedSection from '../../Components/RecommendedSection/RecommendedSection';
 import HolidayPlanSection from '../../Components/HolidayPlanSection/HolidayPlanSection';
-import FavouritesSection from '../../Components/FavouritesSection/FavouritesSection';
 import RecentHolidays from '../../Components/RecentHolidays/RecentHolidays';
-import NeedInspirationSection from '../../Components/NeedInspiration/NeedInspirationSection';
 import { ContactSection } from '../../Components/ContactSection/contactSection';
 import { AboutSection } from '../../Components/About/about';
 import { PatherSection } from '../../Components/PartherHome/partner';
 import { CommentSection } from '../../Components/CommentSection/commentSection';
-import Footer from '../../Components/Footer/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import HotlineWidget from '../../Components/witdgetHotline/hotlineWidget';
 
 function Home() {
     useEffect(() => {
