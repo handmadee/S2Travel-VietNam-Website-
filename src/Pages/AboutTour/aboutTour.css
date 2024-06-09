@@ -1,0 +1,223 @@
+.container {
+  position: relative;
+}
+
+.content h1.title {
+  font-size: 1.7rem;
+  font-weight: bold;
+  border-bottom: 1px solid #d3d3d3;
+  line-height: 1.4;
+}
+
+.content.product .product-brief .boxDesign1 {
+  border: var(--border-detail-color);
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.content.product .product-brief .boxDesign1 .name {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-color);
+  font-weight: 700;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: var(--border-detail-color);
+}
+
+.content.product .product-brief .boxDesign1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content.product .product-brief .boxDesign1 ul li {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: inline-table;
+  width: 100%;
+  border-bottom: var(--border-detail-color);
+}
+
+.content.product .product-brief .boxDesign1 ul li .at {
+  width: 100px;
+  float: left;
+  font-weight: 700;
+}
+
+.content.product .product-brief .boxDesign1 ul li .as {
+  overflow: hidden;
+}
+.content.product .product-brief .boxPrice .price {
+  background: var(--detail-gb-color);
+  color: #fff;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.content.product .product-brief .boxPrice .attr {
+  border: var(--border-detail-color);
+  padding: 15px;
+}
+
+.content.product .product-brief .boxPrice .price .txt {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.content.product .product-brief .boxPrice .price .pr {
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 700;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.content.product .product-brief .boxPrice .bot {
+  padding: 15px;
+  background: var(--detail-gb-color);
+}
+.row.pd8 {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.content.product .product-brief .boxPrice .bot p {
+  color: #fff;
+  font-weight: 800;
+}
+
+.content.product .product-brief .boxPrice .bot button {
+  width: 100%;
+  height: 40px;
+  background: var(--btn-primary-color);
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  border-radius: 5px;
+}
+
+.img-cover,
+.object-cover {
+  width: auto;
+  object-fit: cover;
+  min-width: 100%;
+  height: 100%;
+}
+
+.content.product #productslick .big-slide .item .big-image {
+  height: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  overflow: hidden;
+}
+
+.content.product #productslick .small-slide {
+  position: relative;
+}
+.content.product #productslick .small-slide .slick-list {
+  margin: 0 -5px;
+}
+
+.content.product #productslick .small-slide .thumb-img .img-box {
+  width: 120px;
+  height: 90px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #000;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.big-slide {
+  width: 100%;
+  height: 450px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.big-slide .slider__item .big_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content.product #productslick .small-slide {
+  position: relative;
+}
+.content.product #productslick .small-slide .slick-list {
+  margin: 0 -5px;
+}
+.content.product #productslick .small-slide .slick-list .slick-slide {
+  padding: 0 5px;
+}
+
+.img-cover,
+.object-cover {
+  width: auto;
+  object-fit: cover;
+  min-width: 100%;
+  height: 100%;
+}
+
+.slider-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.thumbnail-image .img-box {
+  width: 100%;
+  height: 100%;
+}
+.thumbnail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.item .slider-banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ave {
+  color: #e42020;
+  position: absolute;
+  top: 50%;
+}
+
+.ave-left {
+  left: 0;
+}
+
+.ave-right {
+  right: 0;
+}
+.product-image {
+  position: relative;
+}
+
+/* About */
+.content.product .product-tit {
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: left;
+}

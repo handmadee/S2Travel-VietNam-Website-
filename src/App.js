@@ -12,6 +12,8 @@ import HotlineWidget from './Components/witdgetHotline/hotlineWidget';
 import WidgetMobile from './Components/WidgetMobile/widgetMobile';
 import Introduce from './Pages/Introduce/Intruduce';
 import Contact from './Pages/Contact/contact';
+import AboutTour from './Pages/AboutTour/aboutTour';
+import HeaderPhone from './Components/NavigationBar/Header';
 
 function App() {
   const [scrollTop, setScrollTop] = useState(0);
@@ -43,6 +45,7 @@ function App() {
     <div className="App"
       ref={ref}
     >
+      {/* <HeaderPhone /> */}
       <NavigationBar />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -51,6 +54,7 @@ function App() {
         <Route path='/city-breaks' element={<CityBreaks />} />
         <Route path='/holidays' element={<Holidays />} />
         <Route path='/destinations' element={<Destinations />} />
+        <Route path='/about-tour' element={<AboutTour />} />
 
 
       </Routes>

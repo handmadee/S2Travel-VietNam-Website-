@@ -6,14 +6,12 @@
   border-color: white;
 }
 
-/* .navbar .navbar-toggler-icon,
 .navbar .navbar-brand img {
-    filter: invert();
-} */
-
-.navbar .navbar-brand img {
-  /* transform: rotate(45deg); */
   width: 7.5rem;
+}
+.navbar .btn {
+  background-color: var(--btn-primary-color);
+  color: white;
 }
 
 @media screen and (max-width: 576px) {

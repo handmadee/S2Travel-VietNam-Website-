@@ -1,13 +1,29 @@
 :root {
   --primary-color: rgb(73 194 113 / 80%);
   --secondary-color: rgb(73 194 113 / 80%);
-
   --primary-bg-color: rgb(73 194 113 / 80%);
   --secondary-bg-color: rgb(73 194 113 / 80%);
+
+  --detail-gb-color: linear-gradient(62.87deg, #a1e69c 8.29%, #76d795 38.65%);
+
+  --scrolled-bg-color: #76d795;
+
+  --text-color: #76d795;
+
+  /* Border */
+  --border-detail-color: 1px solid #76d795;
+
+  /* Background */
+  --bgr-header-active: #95d2b3;
+
+  /* Button */
+  --btn-primary-color: #55ad9b;
 }
 
 .App {
   text-align: center;
+  width: 100%;
+  overflow: hidden;
 }
 
 .App h1 {
@@ -60,7 +76,7 @@
 
 .scrolled {
   z-index: 999;
-  background-color: green !important;
+  background-color: var(--scrolled-bg-color) !important;
   opacity: 0.9 !important;
 }
 
