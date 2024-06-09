@@ -29,7 +29,7 @@ function Home() {
     return (
         <div className='home-page'>
 
-            <HeroSection />
+            {/* <HeroSection /> */}
             <SearchForm />
             <LastHolidaysSection />
             <div className="my-4 my-sm-5">
