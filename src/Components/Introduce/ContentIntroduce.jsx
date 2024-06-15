@@ -15,17 +15,19 @@ export default function ContentIntroduce() {
                             }}
                         >
                             <p style={{ textAlign: "justify" }}>
-                                <span style={{ fontSize: "16px", color: "#8e44ad", fontFamily: "Georgia, serif" }}>
-                                    Công Ty TNHH S2TRAVEL VIETNAM là một đơn vị tổ chức tour chuyên nghiệp với Ban lãnh đạo có trên 12 năm kinh nghiệm trong lĩnh vực lữ hành, cùng đội ngũ nhân viên trẻ, năng động, giàu tính sáng tạo và nhiệt huyết trong công việc. Với chúng tôi, mỗi cá nhân là một mắt xích tạo nên một tập thể vững mạnh, hướng tới mục tiêu chung là mang lại sự hài lòng tuyệt đối đến quý khách hàng.
+                                <span style={{ fontSize: "16px", color: "#000", fontFamily: "Georgia, serif" }}>
+                                    Công Ty TNHH <strong style={{
+                                        textTransform: 'uppercase'
+                                    }}>S2TRAVEL VIETNAM</strong> là một đơn vị tổ chức tour chuyên nghiệp với Ban lãnh đạo có trên 12 năm kinh nghiệm trong lĩnh vực lữ hành, cùng đội ngũ nhân viên trẻ, năng động, giàu tính sáng tạo và nhiệt huyết trong công việc. Với chúng tôi, mỗi cá nhân là một mắt xích tạo nên một tập thể vững mạnh, hướng tới mục tiêu chung là mang lại sự hài lòng tuyệt đối đến quý khách hàng.
                                 </span>
                             </p>
                             <p style={{ textAlign: "justify" }}>
-                                <span style={{ fontSize: "16px", color: "#8e44ad", fontFamily: "Georgia, serif" }}>
+                                <span style={{ fontSize: "16px", color: "#000", fontFamily: "Georgia, serif" }}>
                                     Với phương châm "Sự hài lòng của Quý khách hàng là thành công của Chúng tôi", S2TRAVEL VIETNAM  đang nỗ lực không ngừng nâng cao chất lượng dịch vụ, đa dạng hóa sản phẩm du lịch nhằm tạo nên những trải nghiệm tốt nhất cho Quý du khách trong và ngoài nước.
                                 </span>
                             </p>
                             <p>
-                                <span style={{ fontSize: "16px", color: "#8e44ad", fontFamily: "Georgia, serif" }}>
+                                <span style={{ fontSize: "16px", color: "#000", fontFamily: "Georgia, serif" }}>
                                     Chúng tôi đang đẩy mạnh khai thác các tuyến tour du lịch đa dạng và hấp dẫn như:
                                 </span>
                             </p>
@@ -33,40 +35,40 @@ export default function ContentIntroduce() {
                                 textAlign: "left"
                             }}>
                                 <li>
-                                    <span style={{ fontSize: "16px", color: "#8e44ad", fontFamily: "Georgia, serif" }}>Du lịch trong nước</span>
+                                    <span style={{ fontSize: "16px", color: "#000", fontFamily: "Georgia, serif" }}>Du lịch trong nước</span>
                                 </li>
                                 <li>
-                                    <span style={{ fontSize: "16px", color: "#8e44ad", fontFamily: "Georgia, serif" }}>Du lịch nước ngoài</span>
+                                    <span style={{ fontSize: "16px", color: "#000", fontFamily: "Georgia, serif" }}>Du lịch nước ngoài</span>
                                 </li>
                                 <li>
-                                    <span style={{ fontSize: "16px", color: "#8e44ad", fontFamily: "Georgia, serif" }}>Tour trải nghiệm cho học sinh</span>
+                                    <span style={{ fontSize: "16px", color: "#000", fontFamily: "Georgia, serif" }}>Tour trải nghiệm cho học sinh</span>
                                 </li>
                                 <li>
-                                    <span style={{ fontSize: "16px", color: "#8e44ad", fontFamily: "Georgia, serif" }}>Team Building</span>
+                                    <span style={{ fontSize: "16px", color: "#000", fontFamily: "Georgia, serif" }}>Team Building</span>
                                 </li>
                                 <li>
-                                    <span style={{ fontSize: "16px", color: "#8e44ad", fontFamily: "Georgia, serif" }}>Tổ chức sự kiện</span>
+                                    <span style={{ fontSize: "16px", color: "#000", fontFamily: "Georgia, serif" }}>Tổ chức sự kiện</span>
                                 </li>
                                 <li>
-                                    <span style={{ fontSize: "16px", color: "#8e44ad", fontFamily: "Georgia, serif" }}>Du lịch kết hợp hội thảo, hội nghị (MICE)</span>
+                                    <span style={{ fontSize: "16px", color: "#000", fontFamily: "Georgia, serif" }}>Du lịch kết hợp hội thảo, hội nghị (MICE)</span>
                                 </li>
                                 <li>
-                                    <span style={{ fontSize: "16px", color: "#8e44ad", fontFamily: "Georgia, serif" }}>Đại lý vé máy bay</span>
+                                    <span style={{ fontSize: "16px", color: "#000", fontFamily: "Georgia, serif" }}>Đại lý vé máy bay</span>
                                 </li>
                                 <li>
-                                    <span style={{ fontSize: "16px", color: "#8e44ad", fontFamily: "Georgia, serif" }}>Cung cấp xe du lịch 7 - 45 chỗ</span>
+                                    <span style={{ fontSize: "16px", color: "#000", fontFamily: "Georgia, serif" }}>Cung cấp xe du lịch 7 - 45 chỗ</span>
                                 </li>
                                 <li>
-                                    <span style={{ fontSize: "16px", color: "#8e44ad", fontFamily: "Georgia, serif" }}>Cung cấp Voucher nghỉ dưỡng resort, du thuyền cao cấp...</span>
+                                    <span style={{ fontSize: "16px", color: "#000", fontFamily: "Georgia, serif" }}>Cung cấp Voucher nghỉ dưỡng resort, du thuyền cao cấp...</span>
                                 </li>
                             </ul>
                             <p style={{ textAlign: "justify" }}>
-                                <span style={{ fontSize: "16px", color: "#8e44ad", fontFamily: "Georgia, serif" }}>
+                                <span style={{ fontSize: "16px", color: "#000", fontFamily: "Georgia, serif" }}>
                                     Bên cạnh những tour được thiết kế trước, chúng tôi luôn sẵn sàng thiết kế các tour theo yêu cầu và nhu cầu riêng của quý khách hàng.
                                 </span>
                             </p>
                             <p style={{ textAlign: "justify" }}>
-                                <span style={{ fontSize: "16px", color: "#8e44ad", fontFamily: "Georgia, serif" }}>
+                                <span style={{ fontSize: "16px", color: "#000", fontFamily: "Georgia, serif" }}>
                                     Chúng tôi không ngừng lắng nghe, hoàn thiện và phát triển hơn nữa để trở thành một trong những thương hiệu du lịch gần gũi và đáng tin cậy. Du lịch S2Travel Vietnam cam kết là một người bạn đồng hành tận tụy, cung cấp dịch vụ chuẩn chỉnh và chất lượng nhất cho quý khách, cùng quý khách khám phá những điểm đến hấp dẫn trong và ngoài nước.
                                 </span>
                             </p>
