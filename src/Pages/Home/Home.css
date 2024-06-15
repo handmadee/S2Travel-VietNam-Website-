@@ -13,3 +13,7 @@
 .home-page .need-inspiration-section {
   background-image: url(../../Assets/Images/need-inspiration-bg.jpg);
 }
+
+.home-page .brief {
+  color: white !important;
+}

@@ -5,13 +5,13 @@ const comments = [
     {
         name: "Lê Thị Phượng",
         image: require('./../../Assets/Images/user1.jpeg'),
-        text: "Cám ơn Du lịch Hoa Phượng Tím đã giúp cho chúng tôi có chuyến đi Hà Nội - Ninh Bình- Hạ Long- Sapa thật vui , HDV nhiệt tình, năng động, chăm sóc tốt cho các thành viên, Khách Sạn đáp ứng yêu cầu. Ăn uống được. Hẹn gặp lại.",
+        text: "Cám ơn Du lịch S2Travel VietNam đã giúp cho chúng tôi có chuyến đi Hà Nội - Ninh Bình- Hạ Long- Sapa thật vui , HDV nhiệt tình, năng động, chăm sóc tốt cho các thành viên, Khách Sạn đáp ứng yêu cầu. Ăn uống được. Hẹn gặp lại.",
         job: "Khách du lịch"
     },
     {
         name: "Lê Tuyết Sương",
         image: require('./../../Assets/Images/user2.jpeg'),
-        text: "Cảm ơn Hoa Phượng Tím Tourist đã cùng gia đình em có 1 chuyến đi Đà Lạt trên cả tuyệt vời. Dịch vụ ăn uống, nghỉ dưỡng 5 sao rất tốt. Gia đình e rất vui. Hẹn gặp Hoa Phượng Tím dịp gần nhất",
+        text: "Cảm ơn S2Travel VietNam Tourist đã cùng gia đình em có 1 chuyến đi Đà Lạt trên cả tuyệt vời. Dịch vụ ăn uống, nghỉ dưỡng 5 sao rất tốt. Gia đình e rất vui. Hẹn gặp S2Travel VietNam dịp gần nhất",
         job: "Khách du lịch"
     },
     {
@@ -29,7 +29,7 @@ const comments = [
     {
         name: "Tuấn Anh",
         image: require('./../../Assets/Images/user5.jpeg'),
-        text: "Bạn HDV cực kì dễ thương, bao nhiệt tình. Chất lượng dịch vụ tour hài lòng, nhiều điểm đẹp, tha hồ sống ảo. Sẽ ủng hộ Hoa Phượng Tím lần sau nhé",
+        text: "Bạn HDV cực kì dễ thương, bao nhiệt tình. Chất lượng dịch vụ tour hài lòng, nhiều điểm đẹp, tha hồ sống ảo. Sẽ ủng hộ S2Travel VietNam lần sau nhé",
         job: "Khách du lịch"
     }
 ];

@@ -1,8 +1,9 @@
 import React from 'react';
 import './RecentHolidays.css';
 import Container from 'react-bootstrap/Container';
-import RecentHolidaysItems from '../../Assets/RecentHolidaysItems';
 import RecentHolidayCard from './RecentHolidayCard';
+import { Outtour, FeaturedTour } from '../../api/staticData/tour';
+
 
 function RecentHolidays() {
   return (
@@ -12,12 +13,16 @@ function RecentHolidays() {
         <p className='mb-4 mb-sm-5'>Nơi nhất định phải tới cùng với S2 TravelVietNam</p>
         <div className='row g-4'>
           {
-            RecentHolidaysItems.map((item, index) => <RecentHolidayCard index={index} key={item.id} itemImage={item.itemImage} itemTitle={item.itemTitle} itemDescription={item.itemDescription} itemNights={item.itemNights} itemPrice={item.itemPrice} />)
+            FeaturedTour.splice(0, 4).map((item, index) => <RecentHolidayCard index={index} key={item.id} itemImage={item.image} itemTitle={item.title} itemDescription={item?.idTour} itemNights={item.time} itemPrice={item.price} item={item} />)
           }
+
         </div>
+        <button className="btn_vip btnViewAll text-center my-3 my-lg-4" data-aos="fade-up" data-aos-delay="100"><a className="more-all" href="/destinations">Xem tất cả</a> </button>
+
       </Container>
     </div>
   )
 }
 
 export default RecentHolidays;
+

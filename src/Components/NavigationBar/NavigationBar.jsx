@@ -25,6 +25,7 @@ function NavigationBar() {
                     <Nav className='me-auto w-100 justify-content-center'>
                         <Nav.Link href='/' className='text-light'>TRANG CHỦ</Nav.Link>
                         <Nav.Link href='/introduce' className='text-light'>GIỚI THIỆU</Nav.Link>
+                        <Nav.Link href='/hotTour' className='text-light text-capitalize'>BEST TOUR</Nav.Link>
                         <Nav.Link href='/city-breaks' className='text-light text-capitalize'>TOUR TRONG NƯỚC</Nav.Link>
                         <Nav.Link href='/destinations' className='text-light'>TOUR NGOÀI NƯỚC</Nav.Link>
                         <Nav.Link href='/contact' className='text-light'>LIÊN HỆ</Nav.Link>

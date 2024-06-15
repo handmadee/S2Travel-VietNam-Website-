@@ -1,6 +1,6 @@
 .header-box .title-box .title {
   font-size: 2rem;
-  color: #6f2d91;
+  color: var(--text-color);
 }
 
 .header-box .title-box .brief {
@@ -65,7 +65,7 @@
 .comment .item-wrap .item .feed_brief {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #6f2d91;
+  color: var(--text-color);
 }
 
 .owl-dot-item {
@@ -73,7 +73,7 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #6f2d91;
+  background-color: var(--text-color);
   margin: 0 5px;
 }
 

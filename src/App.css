@@ -31,7 +31,10 @@
 }
 
 .App h2 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
+  background: var(--primary-color);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .App h3 {
@@ -82,4 +85,14 @@
 
 .scrolled a {
   font-weight: bold;
+}
+
+.btn_vip {
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--btn-primary-color);
+  color: white;
+  font-weight: 500;
 }

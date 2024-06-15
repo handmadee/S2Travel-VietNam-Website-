@@ -12,39 +12,37 @@ import { PatherSection } from '../../Components/PartherHome/partner';
 import { CommentSection } from '../../Components/CommentSection/commentSection';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import HotTour from '../../Components/Hottour/HotTour';
 
 function Home() {
     useEffect(() => {
         AOS.init({
-            offset: 200, // Khoảng cách tính bằng pixel từ phần tử tới viewport để bắt đầu hiệu ứng
-            duration: 1000, // Thời gian hiệu ứng
-            easing: 'ease-in-out', // Hiệu ứng easing
-            delay: 100, // Thời gian trễ (ms)
-            once: true, // Chạy animation chỉ một lần
-            mirror: true, // Có lặp lại animation khi cuộn trang không
+            offset: 200,
+            duration: 1000,
+            easing: 'ease-in-out',
+            delay: 100,
+            once: true,
+            mirror: true,
         });
     }, []);
 
 
     return (
         <div className='home-page'>
-
-            {/* <HeroSection /> */}
+            <HeroSection />
             <SearchForm />
-            <LastHolidaysSection />
+            <HotTour />
             <div className="my-4 my-sm-5">
-                <RecommendedSection itemRecommendedTitle='S2 travel VietNam' />
+                <RecommendedSection itemRecommendedTitle='S2Travel VietNam' />
             </div>
+            <LastHolidaysSection />
+
             <HolidayPlanSection itemHolidayPlanTitle='Du lịch nước ngoài' />
-            {/* <FavouritesSection /> */}
             <RecentHolidays />
             <ContactSection />
             <AboutSection />
             <PatherSection />
             <CommentSection />
-            {/* <NeedInspirationSection /> */}
-            {/* Mobile Widgey */}
-
         </div>
     )
 }

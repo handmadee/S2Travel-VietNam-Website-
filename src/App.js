@@ -13,7 +13,8 @@ import WidgetMobile from './Components/WidgetMobile/widgetMobile';
 import Introduce from './Pages/Introduce/Intruduce';
 import Contact from './Pages/Contact/contact';
 import AboutTour from './Pages/AboutTour/aboutTour';
-import HeaderPhone from './Components/NavigationBar/Header';
+import HotTourv from './Pages/HotTour/HotTourv';
+
 
 function App() {
   const [scrollTop, setScrollTop] = useState(0);
@@ -54,6 +55,7 @@ function App() {
         <Route path='/city-breaks' element={<CityBreaks />} />
         <Route path='/holidays' element={<Holidays />} />
         <Route path='/destinations' element={<Destinations />} />
+        <Route path='/hotTour' element={<HotTourv />} />
         <Route path='/about-tour' element={<AboutTour />} />
 
 

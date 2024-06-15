@@ -12,7 +12,7 @@ function SearchForm() {
     return (
         <div className='position-relative'>
             <Container>
-                <Form className='search-form d-lg-flex align-items-center justify-content-center mx-auto p-4 mt-4 mt-lg-0 z-2 rounded'>
+                <Form className='search-form d-lg-flex align-items-center justify-content-center mx-auto p-4 mt-4 mt-lg-0 z-1 rounded'>
                     <div className='col-lg-2'>
                         <Form.Select>
                             <option>Tìm kiếm địa điểm</option>

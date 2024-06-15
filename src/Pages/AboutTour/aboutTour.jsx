@@ -1,25 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import './aboutTour.css';
 import CustomCarousel from '../../Components/Slider/Slide';
+import { useLocation } from 'react-router-dom';
 
 function AboutTour() {
-    const [data, setData] = useState({
-        title: 'KHÁM PHÁ DUBAI – ABU DHABI',
-        time: '5 ngày 4 đêm',
-        idTour: "#0112",
-        start: 'Theo yêu cầu',
-        destination: 'Du Bai',
-        end: '29/06/2024',
-        price: 52000000,
-        status: true,
-        description: 'Dubai là một trong những điểm đến được mong ước nhất thế giới, là thành phố và đồng thời cũng là một trong bảy tiểu vương quốc của Các Tiểu Vương quốc Ả Rập Thống nhất (UAE). Dubai nằm ở phía Nam của vịnh Ba Tư thuộc bán đảo Ả Rập, có diện tích 4.114 km2 rộng lớn thứ hai sau Abu Dhabi. Đặt ngay chuyến du lịch Dubai giá rẻ bạn sẽ đến với một trong những thành phố xa hoa nhất hành tinh, được chiêm ngưỡng những công trình kiến trúc không tưởng, tham quan những khu du lịch nhân tạo độc đáo và tìm hiểu về nền văn hóa đặc sắc của thế giới Hồi giáo.',
-        image: [
-            'https://hoaphuongtim.com/upload/attachment/thumb/2535image001-jpg.jpeg',
-            'https://hoaphuongtim.com/upload/attachment/thumb/2503image007-jpg.jpeg',
-            'https://hoaphuongtim.com/upload/attachment/thumb/8665image011-jpg.jpeg',
-            'https://hoaphuongtim.com/upload/attachment/thumb/4100image017-jpg.jpeg'
-        ]
-    });
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+    const location = useLocation()
+    const data = location.state.data || {}
+    console.log(data)
     const [currentIndex, setCurrentIndex] = useState(0);
     useEffect(() => {
         const interval = setInterval(() => {
@@ -43,11 +33,13 @@ function AboutTour() {
 
 
 
+
+
     const ItemBig = (props) => {
         return (
             <div className="item" >
                 <div className="slider-banner-image">
-                    <a href="upload/attachment/2535image001-jpg.jpeg" className="entry-hover zoom big-image d-flex  " data-fancybox="gallery" rel="img_group" id="big_image">
+                    <a className="entry-hover zoom big-image d-flex  " data-fancybox="gallery" rel="img_group" id="big_image">
                         <img className="lazyload1 img-cover" src={props?.image}
                             alt={props?.title} data-id={props.index} />
                     </a>
@@ -87,7 +79,13 @@ function AboutTour() {
                             </li>
                             <li>
                                 <div className="at">Khởi hành:</div>
-                                <div className="as">Theo yêu cầu </div>
+                                <div className="as"> {
+                                    props?.start && props?.start.length > 0
+                                        ? props.start.map((item, index) => (
+                                            <p className="text-decoration-underline bg-info-subtle rounded-2" key={index}>{item}</p>
+                                        ))
+                                        : 'Theo yêu cầu'
+                                }</div>
                             </li>
                             <li>
                                 <div className="at">Điểm đến:</div>
@@ -117,9 +115,11 @@ function AboutTour() {
                     <div className="attr">
                         <div className="first-show-text">
                             <p><strong>Điểm Nổi Bật Chương Trình:</strong></p>
-                            <p>{
-                                props?.description
-                            }</p>
+                            <p
+                                className='text-start'
+                            >{
+                                    props?.description
+                                }</p>
                         </div>
                     </div>
                     <div className="bot">
@@ -236,11 +236,15 @@ function AboutTour() {
                             <div className="row">
                                 <div className="col-12  col-lg-8 mb-4 mb-md-0" id="productslick">
                                     <div className="product-image">
-                                        <i class="fa-solid fa-angle-left ave"></i>
-                                        <div className="slider-for mb-3 big-slide  ">
+                                        <div className="slider-for mb-3 big-slide ">
+                                            <i
+                                                onClick={() => prevImage()}
+                                                class="fa-solid fa-angle-left ave"></i>
                                             <ItemBig image={data?.image[currentIndex]} alt="slider" />
+                                            <i
+                                                onClick={() => nextImage()}
+                                                class="fa-solid fa-angle-right"></i>
                                         </div>
-                                        <i class="fa-solid fa-angle-right"></i>
                                         <div className=" slider-nav thumb-image small-slide">
                                             {data.image.map((item, index) => (
                                                 <ItemSmall image={item} index={index} />
@@ -306,6 +310,11 @@ function AboutTour() {
 
                         <div className="mt-3 mt-lg-4 mt-xl-5 product-infomation">
                             <p className="product-tit pb-2 mb-3 border-bottom"><i className="fas fa-info-circle"></i> Thông tin</p>
+                            <button className='btnGetInfo'>
+                                <a href={
+                                    data?.linkDocs
+                                }>Nhận thông tin</a>
+                            </button>
                             <div className="product-infomation-content"></div>
                         </div>
                     </div>
