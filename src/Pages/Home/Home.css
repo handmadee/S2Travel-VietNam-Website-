@@ -2,6 +2,17 @@
   background-image: url(../../Assets/Images/panter1.jpeg);
 }
 
+.home-page .recommended-section .abs123 {
+  background-image: url(../../Assets/Images/bannerOut.jpeg);
+}
+
+.second-hero-section234 {
+  background-image: url(../../Assets/Images/Emperor-Cruise.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
 .home-page .holiday-plan-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
     url(../../Assets/Images/bannerOut.jpeg);

@@ -10,11 +10,13 @@ import Footer from './Components/Footer/Footer';
 import AOS from 'aos';
 import HotlineWidget from './Components/witdgetHotline/hotlineWidget';
 import WidgetMobile from './Components/WidgetMobile/widgetMobile';
-import Introduce from './Pages/Introduce/Intruduce';
 import Contact from './Pages/Contact/contact';
 import AboutTour from './Pages/AboutTour/aboutTour';
 import HotTourv from './Pages/HotTour/HotTourv';
-
+import AboutCompany from './Pages/AboutCompany/AboutCompany';
+import FeedBack from './Pages/AboutCompany/FeedBack';
+import AboutCompanyI from './Pages/AboutCompany/AccountControl';
+import Yacht from './Pages/Yacht/yacht';
 
 function App() {
   const [scrollTop, setScrollTop] = useState(0);
@@ -50,13 +52,17 @@ function App() {
       <NavigationBar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/introduce' element={<Introduce />} />
+        <Route path='/introduce' element={< AboutCompany />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/danh-gia-khach-hang' element={<FeedBack />} />
+        <Route path='/trang-chinh-sach-quy-dinh' element={<AboutCompanyI />} />
         <Route path='/city-breaks' element={<CityBreaks />} />
         <Route path='/holidays' element={<Holidays />} />
         <Route path='/destinations' element={<Destinations />} />
         <Route path='/hotTour' element={<HotTourv />} />
         <Route path='/about-tour' element={<AboutTour />} />
+        <Route path='/yacht' element={<Yacht />} />
+
 
 
       </Routes>

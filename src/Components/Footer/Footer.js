@@ -23,8 +23,8 @@ function Footer() {
 
               </p>
               <p class="mb-2 "><i class="fa fa-phone rotate"></i> <strong>Điện thoại:</strong> <a href="tel:0971691414">0971.691.414</a> - <a href="tel:0785503329">0785.503.329</a></p>
-              <p class="mb-2 "><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:hoaphuongtimtourist@gmail.com">hoaphuongtimtourist@gmail.com</a></p>
-              <p class="mb-2 "><i class="fas fa-globe-europe"></i> <strong>Website:</strong> <a href="http://hoaphuongtim.com">hoaphuongtim.com</a></p>
+              <p class="mb-2 "><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:lamoanh.s2travelvietnam@gmail.com">lamoanh.s2travelvietnam@gmail.com</a></p>
+              <p class="mb-2 "><i class="fas fa-globe-europe"></i> <strong>Website:</strong> <a href="https://s2travelvietnam.vercel.app/">s2travelvietnam.com</a></p>
               <div class="item network_social">
                 <div class="d-flex align-items-center ">
                   <a class="facebook_icon rounded mr-2 mr-xl-3" href="https://www.facebook.com/dulichhoaphuongtim/" target="_blank" rel="noreferrer"><i class="fab fa-facebook-square"></i></a>                                <a class="youtube rounded mr-2 mr-xl-3" href="https://www.youtube.com/channel/UC3L8xIJH3tL6aTZI9NGrnzg" target="_blank" rel="noreferrer"><i class="fab fa-youtube-square"></i></a>                                <a class="twitter_url rounded" href="https://goldweld.trustpass.alibaba.com/" target="_blank" rel="noreferrer"><i class="fab fa-twitter-square"></i></a>                            </div>
@@ -32,7 +32,7 @@ function Footer() {
             </div>
             <div class="hotline-ft  d-none">
               <p class="title-hl mb-1 ">Hotline liên hệ</p>
-              <a class="hotline d-block mb-2" href="tel:0973.055.948"><i class="fa fa-phone rotate"></i> 0973.055.948</a>
+              <a class="hotline d-block mb-2" href="tel:0971.691.414"><i class="fa fa-phone rotate"></i> 0971.691.414</a>
               <p class="mb-2"><i class="far fa-clock"></i> T2 - T7    <strong>8h00 - 17h30</strong></p>
 
             </div>

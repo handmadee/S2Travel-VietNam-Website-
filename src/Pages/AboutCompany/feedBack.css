@@ -1,0 +1,296 @@
+/* General Styles */
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  color: #000 !important;
+  margin: 0 0 15px !important;
+} */
+p,
+ul,
+ol {
+  margin: 0 0 1.2rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+}
+a,
+.ah {
+  color: #095191;
+  text-decoration: none;
+}
+a {
+  color: #2797d1;
+}
+
+.form-control,
+.pikaday__display {
+  font-size: 1.6rem;
+  color: #000;
+  font-family: inherit;
+  box-shadow: none;
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.clear-fix:after,
+.container:after,
+.row:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/* Page Specific Styles */
+.holidays-page .container .s35_t {
+  font-size: 3rem;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.holidays-page .container .s35_m h2 {
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000;
+  margin: 0 0 15px;
+}
+.s29 {
+  padding: 25px 0 80px;
+}
+.holidays-page .s29_t {
+  font-size: 3.6rem;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.s29_i {
+  background-color: #f9f9f9;
+  border: 1px solid #ececec;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.s29_ai {
+  width: 140px;
+  height: 140px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.s29_ai img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.s29_r {
+  margin-top: 22px;
+  text-align: center;
+}
+.s29_fc {
+  color: #666;
+}
+.s29_fc > span {
+  display: block;
+  font-size: 1.2rem;
+}
+.holidays-page .s29_n {
+  font-size: 1.2rem;
+  color: #095191;
+  text-align: left;
+  margin-bottom: 0;
+}
+.holidays-page .s29_o {
+  margin: 10px 0 0;
+  background: transparent;
+  display: -webkit-box;
+  max-height: 7.14rem;
+  line-height: 1.7;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 70px;
+  text-align: left;
+}
+.holidays-page .s29_f {
+  position: relative;
+  padding-right: 150px;
+  padding-top: 18px;
+  margin-top: 13px;
+  border-top: 1px solid #ccc;
+  text-align: left;
+}
+.holidays-page .s29_f .btn-1 {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: 9px;
+}
+.holidays-page .s29_b {
+  overflow: hidden;
+}
+
+.holidays-page .btn-1 {
+  background-color: #fd792c;
+  color: #fff;
+}
+.holidays-page .btn {
+  height: 36px;
+  line-height: 36px;
+  -webkit-transition: all 0.2s;
+  -khtml-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  display: inline-block;
+  text-align: center;
+  padding: 0 15px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none !important;
+  font-size: 1.4rem;
+  border-radius: 2px;
+}
+
+.s29_fc > span {
+  display: block;
+  font-size: 1.2rem;
+}
+/* Responsive Styles */
+@media (min-width: 768px) {
+  .s29_a {
+    float: left;
+    margin-right: 20px;
+  }
+  .s29_r {
+    margin-top: 22px;
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-8 {
+    width: 66.6666666667%;
+  }
+}
+@media (min-width: 1200px) {
+  .s29_m {
+    padding-right: 20px;
+  }
+  .wg {
+    padding-left: 9px;
+  }
+  .hidden-lg {
+    display: none !important;
+  }
+}
+
+/* Container and Grid System */
+.container,
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* Widgets */
+.holidays-page .wg_i3 {
+  padding: 20px 25px;
+  border-radius: 3px;
+  border: 1px solid rgba(210, 210, 210, 0.5);
+}
+.holidays-page .wg_i {
+  margin-bottom: 30px;
+}
+.holidays-page .wg_h {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.holidays-page .s19_wp {
+  margin-top: 20px;
+}
+.holidays-page .s19_wa {
+  width: 64px;
+  height: 64px;
+  float: left;
+}
+.holidays-page .s19_wa img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.holidays-page .s19_wlm {
+  text-align: left;
+}
+
+.holidays-page .s19_wlm > span {
+  display: block;
+}
+.holidays-page .s19_wlm > span a {
+  color: #fd792c;
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+.holidays-page .s19_wf {
+  padding-top: 20px;
+  color: #333;
+}
+.holidays-page .s19_wfm {
+  margin-top: 5px;
+  position: relative;
+}
+.holidays-page .s19_wfm .form-control {
+  padding-right: 60px;
+  height: 36px;
+  font-size: 1.4rem;
+}
+.s19_wfm .btn {
+  width: 55px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.s19_wfn {
+  font-size: 1.2rem;
+  color: rgba(51, 51, 51, 0.8);
+  margin-top: 5px;
+}
+
+/* Custom Rating Widget */
+.rv1,
+.rv1 span {
+  width: 83px;
+  height: 14px;
+  background: url("./../../Assets/Images/r1.svg") repeat-x 0 0px;
+}
+.rv1,
+.rv1 span,
+.rv2,
+.rv2 span {
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 0;
+  text-align: left;
+}

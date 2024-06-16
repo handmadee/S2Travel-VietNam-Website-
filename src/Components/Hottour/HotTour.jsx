@@ -74,7 +74,7 @@ function HotTour() {
     }, [])
 
     return (
-        <div className='home-product recent-holidays my-4 my-sm-5 pt-5' data-aos="fade-up" data-aos-delay="100">
+        <div className='home-product hotTour recent-holidays my-4 my-sm-5 pt-5' data-aos="fade-up" data-aos-delay="100">
             <Container>
                 <h2 className='fw-semibold'>Các Tour Nổi Bật</h2>
                 <p className='mb-4 mb-sm-5'>S2 Travel các tour có số lượng đặt lớn</p>

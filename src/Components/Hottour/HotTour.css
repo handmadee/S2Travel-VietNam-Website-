@@ -265,3 +265,7 @@ img {
 .btnViewAll:hover {
   background: var(--detail-gb-color);
 }
+
+.hotTour .brief {
+  color: #000 !important;
+}

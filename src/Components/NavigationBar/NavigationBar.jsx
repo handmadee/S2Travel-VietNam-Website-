@@ -26,9 +26,13 @@ function NavigationBar() {
                         <Nav.Link href='/' className='text-light'>TRANG CHỦ</Nav.Link>
                         <Nav.Link href='/introduce' className='text-light'>GIỚI THIỆU</Nav.Link>
                         <Nav.Link href='/hotTour' className='text-light text-capitalize'>BEST TOUR</Nav.Link>
+                        <Nav.Link href='/yacht' className='text-light text-capitalize'>TOUR DU THUYỀN</Nav.Link>
                         <Nav.Link href='/city-breaks' className='text-light text-capitalize'>TOUR TRONG NƯỚC</Nav.Link>
                         <Nav.Link href='/destinations' className='text-light'>TOUR NGOÀI NƯỚC</Nav.Link>
                         <Nav.Link href='/contact' className='text-light'>LIÊN HỆ</Nav.Link>
+
+
+
                     </Nav>
                     <Button variant='light'>
                         <Link to='/' className='text-decoration-none text-capitalize text-dark text-nowrap'>Đăng nhập</Link>

@@ -5,6 +5,7 @@ import AmsterdamCityBreaksSection from '../../Components/CityBreaksSection/Amste
 import NeedInspirationSection from '../../Components/NeedInspiration/NeedInspirationSection';
 import { Intour } from '../../api/staticData/tour';
 
+
 function CityBreaks() {
   return (
     <div className='city-breaks-page'>

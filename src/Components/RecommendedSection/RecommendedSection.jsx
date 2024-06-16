@@ -4,8 +4,8 @@ import Container from 'react-bootstrap/Container';
 
 function RecommendedSection(props) {
   return (
-    <div className='recommended-section' data-aos="zoom-in-up" data-aos-delay="100" previewlistener="true"  >
-      <Container className='position-relative py-5 rounded'>
+    <div className='recommended-section ' data-aos="zoom-in-up" data-aos-delay="100" previewlistener="true"  >
+      <Container className=' position-relative py-5 rounded'>
         <div className='bg-shape position-absolute'>
         </div>
         <div className='row justify-content-end'>

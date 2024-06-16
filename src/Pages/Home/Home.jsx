@@ -13,6 +13,7 @@ import { CommentSection } from '../../Components/CommentSection/commentSection';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import HotTour from '../../Components/Hottour/HotTour';
+import TripS from '../../Components/Trips/Trips';
 
 function Home() {
     useEffect(() => {
@@ -32,6 +33,17 @@ function Home() {
             <HeroSection />
             <SearchForm />
             <HotTour />
+
+            {/* Yacht */}
+            <div className="my-4 my-sm-5">
+                <RecommendedSection itemRecommendedTitle='S2Travel VietNam' />
+            </div>
+            {/* Yarn */}
+            <TripS />
+
+
+
+            {/* Slide */}
             <div className="my-4 my-sm-5">
                 <RecommendedSection itemRecommendedTitle='S2Travel VietNam' />
             </div>
