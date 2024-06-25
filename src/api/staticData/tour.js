@@ -1060,7 +1060,6 @@ export const FeedbackII = [
 ]
 // Image carosel 
 export const LISTIMGCOMPANY = [
-    require('./../../Assets/Images/S2T1.jpg'),
     require('./../../Assets/Images/S2T2.jpg'),
     require('./../../Assets/Images/S2T3.jpg'),
     require('./../../Assets/Images/S2T4.jpg'),
@@ -1068,7 +1067,7 @@ export const LISTIMGCOMPANY = [
     require('./../../Assets/Images/S2T6.jpg'),
     require('./../../Assets/Images/S2T7.jpg'),
     require('./../../Assets/Images/S2T8.jpg'),
-
+    require('./../../Assets/Images/S2T1.jpg'),
 ]
 
 
