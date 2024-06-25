@@ -66,9 +66,12 @@ export const Intour = [
         status: true,
         description: 'Du lịch Phan Thiết từ trước đến nay luôn nổi tiếng với những bãi biển xanh trong và những đồi cát trải dài tít tắp. Nếu đang tìm kiếm một chuyến nghỉ ngơi ngắn ngày đến một thành phố biển xinh đẹp thì Phan Thiết là sự lựa chọn không thể tuyệt vời hơn. “Thủ” ngay bí kíp du lịch Phan Thiết cực chi tiết dưới đây để có chuyến khám phá thú vị nhất nhé!',
         image: [
-            require('./../../Assets/Images/PT1.jpeg'),
+            require('./../../Assets/Images/PT1.jpg'),
             require('./../../Assets/Images/PT2.jpeg'),
             require('./../../Assets/Images/PT4.png'),
+            require('./../../Assets/Images/PT3.jpg'),
+
+
 
         ]
     },
@@ -1056,8 +1059,17 @@ export const FeedbackII = [
 
 ]
 // Image carosel 
+export const LISTIMGCOMPANY = [
+    require('./../../Assets/Images/S2T1.jpg'),
+    require('./../../Assets/Images/S2T2.jpg'),
+    require('./../../Assets/Images/S2T3.jpg'),
+    require('./../../Assets/Images/S2T4.jpg'),
+    require('./../../Assets/Images/S2T5.jpg'),
+    require('./../../Assets/Images/S2T6.jpg'),
+    require('./../../Assets/Images/S2T7.jpg'),
+    require('./../../Assets/Images/S2T8.jpg'),
 
-
+]
 
 
 //

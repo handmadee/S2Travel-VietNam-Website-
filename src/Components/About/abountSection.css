@@ -66,3 +66,12 @@
 .brief {
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .about-home {
+    margin-top: 30rem;
+  }
+  .big-slide {
+    height: 40vw !important;
+  }
+}

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './feedbackII.css';
-import { FeedbackII } from '../../api/staticData/tour';
 
 
-function FeedBackHero() {
+
+function FeedBackHero({ FeedbackII = [], title = "Một số hình ảnh khách hàng về chuyến đi", des = "Vi vu cùng S2 travelVietNam" }) {
     const [currentIndex, setCurrentIndex] = useState(0);
     useEffect(() => {
         const interval = setInterval(() => {
@@ -41,8 +41,8 @@ function FeedBackHero() {
     }
     return (
         <div className='feddHer'>
-            <h5>Một số hình ảnh khách hàng về chuyến đi </h5>
-            <strong>Vi vu cùng S2 travelVietNam</strong>
+            <h5>{title}</h5>
+            <strong>{des}</strong>
             <div className='FeedBackHero  w-90 rounded-2 '>
                 <div className='container carousel'>
                     <div className="product-image">

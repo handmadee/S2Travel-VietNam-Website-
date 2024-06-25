@@ -93,3 +93,13 @@
   align-items: flex-start;
   justify-content: space-between;
 }
+
+/* Contact Respon */
+@media screen and (max-width: 768px) {
+  .containerContact .title {
+    font-size: 25px;
+  }
+  .listCard {
+    margin: 0 auto !important;
+  }
+}

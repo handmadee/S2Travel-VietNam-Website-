@@ -15,6 +15,7 @@ import 'aos/dist/aos.css';
 import HotTour from '../../Components/Hottour/HotTour';
 import TripS from '../../Components/Trips/Trips';
 import FeedBackHero from '../../Components/FeedBackII/feedbackII';
+import { FeedbackII } from '../../api/staticData/tour';
 
 
 function Home() {
@@ -57,7 +58,7 @@ function Home() {
             <AboutSection />
             <PatherSection />
             <CommentSection />
-            <FeedBackHero />
+            <FeedBackHero FeedbackII={FeedbackII} />
         </div>
     )
 }

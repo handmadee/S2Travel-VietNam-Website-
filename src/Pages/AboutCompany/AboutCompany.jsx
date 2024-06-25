@@ -3,8 +3,11 @@ import './AboutCompany.css';
 import SecondHeroSection from '../../Components/SecondHeroSection/SecondHeroSection';
 import SearchForm from '../../Components/SearchForm/SearchForm';
 import { Partner } from '../../Components/Partner/Partner';
+import FeedBackHero from '../../Components/FeedBackII/feedbackII';
+import { LISTIMGCOMPANY } from '../../api/staticData/tour';
 
 function AboutCompany() {
+
     return (
         <div className='holidays-page'>
             <SecondHeroSection secondHeroTitle='LIÊN HỆ TỚI CHÚNG TÔI' />
@@ -57,14 +60,17 @@ function AboutCompany() {
                                     <p>
                                         <br />
                                     </p>
-                                    <p>
+                                    {/* <p>
                                         <img
                                             src={require('./../../Assets/Images/S2Tourr.png')}
                                             className="fr-fic fr-dib"
                                             style={{ width: '600px', height: '600px' }}
                                             alt="S2 Travel Team"
                                         />
-                                    </p>
+                                    </p> */}
+                                    <FeedBackHero FeedbackII={LISTIMGCOMPANY} title='Hình ảnh về công ty TNHH S2 TravelVietNam' des='' />
+
+
                                     <p>
                                         <br />
                                     </p>

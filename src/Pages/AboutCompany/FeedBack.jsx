@@ -4,6 +4,7 @@ import './feedBack.css'
 import SecondHeroSection from '../../Components/SecondHeroSection/SecondHeroSection';
 import { Partner } from '../../Components/Partner/Partner';
 import FeedBackHero from '../../Components/FeedBackII/feedbackII';
+import { FeedbackII } from '../../api/staticData/tour';
 
 function FeedBack() {
 
@@ -179,7 +180,7 @@ function FeedBack() {
                 </div>
             </div>
             {/* FeeddBack */}
-            <FeedBackHero />
+            <FeedBackHero FeedbackII={FeedbackII} />
             {/*  */}
             <Partner />
 
