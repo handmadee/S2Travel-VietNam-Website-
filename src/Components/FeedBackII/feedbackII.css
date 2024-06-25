@@ -1,0 +1,7 @@
+.FeedBackHero .big-slide {
+  height: 70vh;
+}
+
+.FeedBackHero img {
+  object-fit: inherit;
+}

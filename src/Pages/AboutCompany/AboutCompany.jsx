@@ -47,7 +47,7 @@ function AboutCompany() {
                                         chuyến đi cùng gia đình, bạn bè hay đồng nghiệp.
                                     </p>
                                     <p>
-                                        Duthuyenhalong.com là một sản phẩm trực thuộc S2 Travel, với mục tiêu cung
+                                        S2travel vietnam là một sản phẩm trực thuộc S2 Travel, với mục tiêu cung
                                         cấp dịch vụ tư vấn và tổ chức các tour du thuyền chất lượng, tin cậy với
                                         giá tốt nhất đến khách hàng. S2 Travel liên kết chọn lọc với các khách sạn,
                                         các hãng hàng không và các đối tác du thuyền uy tín nhất nhằm cung cấp đa dạng
@@ -78,7 +78,7 @@ function AboutCompany() {
                                         thường chỉ chọn ở khách sạn thì hiện nay, rất nhiều người Việt đã lựa chọn
                                         đi du thuyền để khám phá vịnh Hạ Long để kết hợp trong kỳ nghỉ của mình. Hiểu
                                         được nhu cầu của khách hàng, cùng với mong muốn giới thiệu những du thuyền tốt
-                                        nhất cho du khách, chúng tôi đã xây dựng nên thương hiệu Duthuyenhalong.com để
+                                        nhất cho du khách, chúng tôi đã xây dựng nên thương hiệu S2travel vietnam để
                                         bạn và gia đình, bạn bè yên tâm tin tưởng và lựa chọn.
                                     </p>
                                     <p>Chúng tôi tự hào khi mang lại cho khách hàng những giá trị cốt lõi:</p>
@@ -100,7 +100,7 @@ function AboutCompany() {
                                     <p>
                                         Những du thuyền mới nhất, sang trọng và hiện đại nhất để đáp ứng tất cả những yêu
                                         cầu của du khách sẽ luôn được cập nhật trên website của chúng tôi. Tại
-                                        Duthuyenhalong.com, khách hàng có thể dễ dàng tìm thấy một du thuyền phù hợp với
+                                        S2travel vietnam, khách hàng có thể dễ dàng tìm thấy một du thuyền phù hợp với
                                         nhu cầu nghỉ dưỡng cho các cặp đôi, gia đình, nhóm bạn hay các đoàn thể. Đặc biệt,
                                         Du thuyền Hạ Long hứa hẹn sẽ là một điểm check in sang chảnh của giới trẻ. Quý khách
                                         vừa được tận hưởng chuyến nghỉ dưỡng thoải mái, vừa lưu giữ được những hình ảnh tuyệt
@@ -110,7 +110,7 @@ function AboutCompany() {
                                         <strong>Mức giá hấp dẫn</strong>
                                     </p>
                                     <p>
-                                        Duthuyenhalong.com luôn cam kết mang đến mức giá ưu đãi và tốt nhất dành riêng cho
+                                        S2travel vietnam luôn cam kết mang đến mức giá ưu đãi và tốt nhất dành riêng cho
                                         khách hàng. Chúng tôi chắc chắn rằng, số tiền mà quý khách chi trả hoàn toàn xứng
                                         đáng với giá trị và chất lượng dịch vụ mà chúng tôi mang lại. Bên cạnh đó, chúng tôi
                                         luôn có mức giá đặc biệt được thiết kế riêng cho kỳ nghỉ của từng nhóm khách hàng.

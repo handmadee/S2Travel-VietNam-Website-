@@ -3,6 +3,7 @@ import './AboutCompany.css';
 import './feedBack.css'
 import SecondHeroSection from '../../Components/SecondHeroSection/SecondHeroSection';
 import { Partner } from '../../Components/Partner/Partner';
+import FeedBackHero from '../../Components/FeedBackII/feedbackII';
 
 function FeedBack() {
 
@@ -14,31 +15,38 @@ function FeedBack() {
             content: "Cô rất hài lòng với chuyến đi này. Cám ơn s2travelvietnam.vercel.app đã đặt giúp tour, giúp cô có chuyến đi vui vẻ và đáng nhớ."
         },
         {
-            img: require('./../../Assets/Images/us1.jpeg'),
-            name: "Tuyết Hương",
-            trip: "La Casta Regal",
-            content: "Cô rất hài lòng với chuyến đi này. Cám ơn s2travelvietnam.vercel.app đã đặt giúp tour, giúp cô có chuyến đi vui vẻ và đáng nhớ."
+            img: require('./../../Assets/Images/user1.jpeg'),
+            name: "Nguyễn Văn A",
+            trip: "Bình Minh Trên Biển",
+            content: "Tôi đã có một trải nghiệm tuyệt vời với s2 Travel Vietnam. Chuyến du thuyền thật sự thú vị và đáng nhớ. Cảm ơn đội ngũ đã mang đến cho tôi một kỳ nghỉ tuyệt vời!"
         },
         {
-            img: require('./../../Assets/Images/us1.jpeg'),
-            name: "Tuyết Hương",
-            trip: "La Casta Regal",
-            content: "Cô rất hài lòng với chuyến đi này. Cám ơn s2travelvietnam.vercel.app đã đặt giúp tour, giúp cô có chuyến đi vui vẻ và đáng nhớ."
+            img: require('./../../Assets/Images/user2.jpeg'),
+            name: "Ngọc Anh",
+            trip: "Hành Trình Biển Xanh",
+            content: "Chuyến đi này thực sự là một trải nghiệm tuyệt vời! Cảm ơn s2 Travel Vietnam đã tổ chức mọi thứ tốt đẹp như vậy. Tôi rất hài lòng và sẽ quay lại!"
         },
         {
-            img: require('./../../Assets/Images/us1.jpeg'),
-            name: "Tuyết Hương",
-            trip: "La Casta Regal",
-            content: "Cô rất hài lòng với chuyến đi này. Cám ơn s2travelvietnam.vercel.app đã đặt giúp tour, giúp cô có chuyến đi vui vẻ và đáng nhớ."
+            img: require('./../../Assets/Images/user3.jpeg'),
+            name: "Lê Thanh Hương",
+            trip: "Kỳ Nghỉ Đảo Ngọc",
+            content: "S2 Travel Vietnam thật sự chuyên nghiệp và tận tâm! Chuyến đi của tôi đã được tổ chức hoàn hảo từ đầu đến cuối. Tôi rất hài lòng với dịch vụ của họ!"
         },
         {
-            img: require('./../../Assets/Images/us1.jpeg'),
-            name: "Tuyết Hương",
-            trip: "La Casta Regal",
-            content: "Cô rất hài lòng với chuyến đi này. Cám ơn s2travelvietnam.vercel.app đã đặt giúp tour, giúp cô có chuyến đi vui vẻ và đáng nhớ."
+            img: require('./../../Assets/Images/user5.jpeg'),
+            name: "Trần Đức Mạnh",
+            trip: "Khám Phá Vịnh Hạ Long",
+            content: "Đây là một trải nghiệm khó quên! Cảm ơn s2 Travel Vietnam đã giúp tôi có một chuyến đi thú vị và đầy kỷ niệm. Tôi rất hài lòng và sẽ giới thiệu cho bạn bè của tôi!"
         },
+        {
+            img: require('./../../Assets/Images/user4.jpeg'),
+            name: "Nguyễn Thị Mai",
+            trip: "Nghỉ Dưỡng Tại Phú Quốc",
+            content: "Tôi không thể hài lòng hơn với chuyến đi này! Dịch vụ của s2 Travel Vietnam thật sự xuất sắc. Chắc chắn sẽ quay lại lần nữa!"
+        }
+    ];
 
-    ]
+
     const ItemFeedBack = ({
         img, name, trip, content
     }) => {
@@ -138,7 +146,7 @@ function FeedBack() {
                                     <div className="wg_b">
                                         <div className="s19_wp clear-fix">
                                             <div className="s19_wa">
-                                                <img src={require('./../../Assets/Images/us2.png')} alt="" />
+                                                <img src={require('./../../Assets/Images/lamoanh.png')} alt="" />
                                             </div>
                                             <div className="s19_wl">
                                                 <div className="s19_wlm">
@@ -170,8 +178,11 @@ function FeedBack() {
                     </div>
                 </div>
             </div>
+            {/* FeeddBack */}
+            <FeedBackHero />
             {/*  */}
             <Partner />
+
         </div>
     )
 }

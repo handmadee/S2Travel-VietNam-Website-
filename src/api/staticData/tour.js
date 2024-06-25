@@ -1,5 +1,6 @@
 // Tour Nội địa 
 export const Intour = [
+
     {
         title: 'TOUR GHÉP ĐÀ NẴNG - HỘI AN - BÀ NÀ 3N2Đ',
         time: '3 ngày 2 đêm',
@@ -1031,7 +1032,7 @@ Phí nâng hạng phòng Deluxe (khách sạn): 150.000 VNĐ/ Khách (CN - T5), 
 ]
 
 // Feedback
-const Feedback = [
+export const FeedbackII = [
     require('./../../Assets/Images/FB1.jpeg'),
     require('./../../Assets/Images/FB2.jpeg'),
     require('./../../Assets/Images/FB3.jpeg'),
@@ -1048,7 +1049,11 @@ const Feedback = [
     require('./../../Assets/Images/FB14.jpeg'),
     require('./../../Assets/Images/FB15.jpeg'),
     require('./../../Assets/Images/FB16.jpeg'),
+    require('./../../Assets/Images/ETC17.jpg'),
     require('./../../Assets/Images/FB18.jpeg'),
+    require('./../../Assets/Images/ETC19.jpg'),
+    require('./../../Assets/Images/ETC20.jpg'),
+
 ]
 // Image carosel 
 

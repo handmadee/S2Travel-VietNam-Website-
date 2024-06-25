@@ -62,9 +62,6 @@ function App() {
         <Route path='/hotTour' element={<HotTourv />} />
         <Route path='/about-tour' element={<AboutTour />} />
         <Route path='/yacht' element={<Yacht />} />
-
-
-
       </Routes>
       <Footer />
       <HotlineWidget />
