@@ -214,9 +214,9 @@ function AboutCompany() {
                                             Hotline: 0785.503.329
                                             <br />
                                             Email:
-                                            lamoanh.s2travelvietnam@gmail.com
+                                            booking@s2travelvietnam.vn
                                             <br />
-                                            Website: <a href="https://s2travelvietnam.vercel.app/">www.s2travel.com</a>
+                                            Website: <a href="https://s2travelvietnam.vn/">www.s2travelvietnam.vn</a>
                                         </p>
                                     </div>
                                 </div>

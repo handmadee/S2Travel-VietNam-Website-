@@ -114,3 +114,8 @@
   top: 2px;
   z-index: 8;
 } */
+@media (max-width: 768px) {
+  .comment .owl-carousel {
+    flex-direction: column;
+  }
+}

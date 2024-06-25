@@ -12,7 +12,7 @@ function Footer() {
               <a class="logo d-flex mr-3" href="https://hoaphuongtim.com/">
                 <img class="img-contain m-auto" src={
                   require('./../../Assets/Images/logo.png')
-                } alt="CÔNG TY TNHH DU LỊCH HOA PHƯỢNG TÍM menu" />
+                } alt="CÔNG TY TNHH S2 travel menu" />
               </a>
             </div>
             <div class="company-info mr-lg-0  mr-md-3  mb-4 mb-xl-0">
@@ -23,11 +23,11 @@ function Footer() {
 
               </p>
               <p class="mb-2 "><i class="fa fa-phone rotate"></i> <strong>Điện thoại:</strong> <a href="tel:0971691414">0971.691.414</a> - <a href="tel:0785503329">0785.503.329</a></p>
-              <p class="mb-2 "><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:lamoanh.s2travelvietnam@gmail.com">lamoanh.s2travelvietnam@gmail.com</a></p>
-              <p class="mb-2 "><i class="fas fa-globe-europe"></i> <strong>Website:</strong> <a href="https://s2travelvietnam.vercel.app/">s2travelvietnam.com</a></p>
+              <p class="mb-2 "><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:booking@s2travelvietnam.vn">booking@s2travelvietnam.vn	</a></p>
+              <p class="mb-2 "><i class="fas fa-globe-europe"></i> <strong>Website:</strong> <a href="https://www.s2travelvietnam.vn/">www.s2travelvietnam.vn</a></p>
               <div class="item network_social">
                 <div class="d-flex align-items-center ">
-                  <a class="facebook_icon rounded mr-2 mr-xl-3" href="https://www.facebook.com/dulichhoaphuongtim/" target="_blank" rel="noreferrer"><i class="fab fa-facebook-square"></i></a>                                <a class="youtube rounded mr-2 mr-xl-3" href="https://www.youtube.com/channel/UC3L8xIJH3tL6aTZI9NGrnzg" target="_blank" rel="noreferrer"><i class="fab fa-youtube-square"></i></a>                                <a class="twitter_url rounded" href="https://goldweld.trustpass.alibaba.com/" target="_blank" rel="noreferrer"><i class="fab fa-twitter-square"></i></a>                            </div>
+                  <a class="facebook_icon rounded mr-2 mr-xl-3" href="https://www.facebook.com/ComboOanhNguyen" target="_blank" rel="noreferrer"><i class="fab fa-facebook-square"></i></a>                                <a class="youtube rounded mr-2 mr-xl-3" href="https://www.youtube.com/channel/UC3L8xIJH3tL6aTZI9NGrnzg" target="_blank" rel="noreferrer"><i class="fab fa-youtube-square"></i></a>                                <a class="twitter_url rounded" href="https://goldweld.trustpass.alibaba.com/" target="_blank" rel="noreferrer"><i class="fab fa-twitter-square"></i></a>                            </div>
               </div>
             </div>
             <div class="hotline-ft  d-none">
@@ -37,10 +37,10 @@ function Footer() {
 
             </div>
             <div class="face box mb-3 mb-lg-0 d-none">
-              <div class="fb-page" data-width="250" data-height="190" data-href="https://www.facebook.com/dulichhoaphuongtim/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true">
+              <div class="fb-page" data-width="250" data-height="190" data-href="https://www.facebook.com/ComboOanhNguyen" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true">
                 <div class="fb-xfbml-parse-ignore">
-                  <blockquote cite="https://www.facebook.com/dulichhoaphuongtim/">
-                    <a href="https://www.facebook.com/dulichhoaphuongtim/">S2 TRAVEL VIET NAM COMPANY LIMITED</a>
+                  <blockquote cite="https://www.facebook.com/ComboOanhNguyen">
+                    <a href="https://www.facebook.com/ComboOanhNguyen">S2 TRAVEL VIET NAM COMPANY LIMITED</a>
                   </blockquote>
                 </div>
               </div>

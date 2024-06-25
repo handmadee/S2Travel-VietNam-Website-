@@ -40,7 +40,7 @@ function Contactpage() {
                                 <span className="icon"><i className="far fa-envelope"></i></span>
                                 <div>
                                     <strong className="d-block">Email</strong>
-                                    <span><a href="mailto:lamoanh.s2travelvietnam@gmail.com">lamoanh.s2travelvietnam@gmail.com</a></span>
+                                    <span><a href="mailto:booking@s2travelvietnam.vn">booking@s2travelvietnam.vn</a></span>
                                 </div>
                             </div>
                         </div>
