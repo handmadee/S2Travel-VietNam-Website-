@@ -48,7 +48,7 @@ export function ContactSection() {
                                 <img src={custom} alt="support-contact-hotline-2" className="me-2" />
                                 <div className="in">
                                     <p className="tit mb-1">Hotline 8h00 - 17h30</p>
-                                    <a href="tel:0973 055 948">0901210110</a>
+                                    <a href="tel:0971691414 ">0971691414 </a>
                                 </div>
                             </div>
                         </div>
