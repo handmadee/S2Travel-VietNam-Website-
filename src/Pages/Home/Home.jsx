@@ -16,6 +16,8 @@ import HotTour from '../../Components/Hottour/HotTour';
 import TripS from '../../Components/Trips/Trips';
 import FeedBackHero from '../../Components/FeedBackII/feedbackII';
 import { FeedbackII } from '../../api/staticData/tour';
+import Hotel from '../../Components/Hotel/Hotel';
+import RecentHotel from '../../Components/RecentHotel/RecentHotel';
 
 
 function Home() {
@@ -43,6 +45,11 @@ function Home() {
             </div>
             {/* Yarn */}
             <TripS />
+
+            <div className="my-4 my-sm-5">
+                <RecentHotel itemRecommendedTitle='S2Travel VietNam' />
+            </div>
+            <Hotel />
 
 
 

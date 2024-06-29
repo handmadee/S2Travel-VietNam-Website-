@@ -17,6 +17,7 @@ import AboutCompany from './Pages/AboutCompany/AboutCompany';
 import FeedBack from './Pages/AboutCompany/FeedBack';
 import AboutCompanyI from './Pages/AboutCompany/AccountControl';
 import Yacht from './Pages/Yacht/yacht';
+import HotelTour from './Pages/Hotel/Hotel';
 
 function App() {
   const [scrollTop, setScrollTop] = useState(0);
@@ -62,6 +63,10 @@ function App() {
         <Route path='/hotTour' element={<HotTourv />} />
         <Route path='/about-tour' element={<AboutTour />} />
         <Route path='/yacht' element={<Yacht />} />
+        <Route path='/HotelTour' element={<HotelTour />} />
+
+
+
       </Routes>
       <Footer />
       <HotlineWidget />

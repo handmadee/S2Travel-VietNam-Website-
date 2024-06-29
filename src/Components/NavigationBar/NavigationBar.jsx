@@ -29,7 +29,8 @@ function NavigationBar() {
                         <Nav.Link href='/yacht' className='text-light text-capitalize'>TOUR DU THUYỀN</Nav.Link>
                         <Nav.Link href='/city-breaks' className='text-light text-capitalize'>TOUR TRONG NƯỚC</Nav.Link>
                         <Nav.Link href='/destinations' className='text-light'>TOUR NGOÀI NƯỚC</Nav.Link>
-                        <Nav.Link href='/contact' className='text-light'>LIÊN HỆ</Nav.Link>
+                        <Nav.Link href='/HotelTour' className='text-light text-capitalize'>RESORT</Nav.Link>
+                        <Nav.Link href='/HotelTour' className='text-light'>LIÊN HỆ</Nav.Link>
 
 
 

@@ -1072,3 +1072,623 @@ export const LISTIMGCOMPANY = [
 
 
 //
+
+export const ResortTour = [
+    {
+        title: "Khu nghỉ dưỡng Melia Vinpearl Phú Quốc",
+        time: 'Giá cho 01 người lớn',
+        idTour: "VLT5 – 01",
+        start: ['Theo yêu cầu'],
+        destination: '   Khu Bãi Dài,  xã Gành Dầu - ',
+        end: '30/06/2024',
+        price: 3687500,
+        status: true,
+        description: ` 
+Trải nghiệm phải thử ở Khu nghỉ dưỡng Melia Vinpearl Phú Quốc
+Tổ hợp Mua sắm Grand World
+
+Nằm trong khu phức hợp nghỉ dưỡng và giải trí Corona & Phú Quốc United Center, với quy mô 85 hecta, sở hữu nhiều công trình kiến trúc nổi bật và hùng vĩ với kiến trúc tinh xảo, những con phố kinh doanh nhộn nhịp, phong cách. Nơi đây còn diễn ra hàng trăm sự kiện và bữa tiệc hoành tráng, tái hiện một loạt các khu giải trí sôi động như Venice, Thượng Hải, Chợ Đêm và nhiều hơn nữa. Tất cả hoạt động không ngừng nghỉ 24 giờ một ngày, 365 ngày một năm, tạo nên một môi trường lễ hội liên tục và bất tận đầy sôi động, tương tự như những thị trấn không ngủ nổi tiếng khắp thế giới.
+
+Công viên chủ đề VinWonders
+
+VinWonders là công viên giải trí đầu tiên tại Việt Nam và là lớn nhất ở Đông Nam Á. Bao gồm 6 khu vực giải trí theo chủ đề độc đáo, có sức chứa 20,000 khách/ngày và hơn 60 trò chơi đẳng cấp thế giới. Bể cá không chứa kim loại với diện tích 15,000 mét vuông. Top 5 bể cá lớn nhất thế giới, tầm nhìn vô cực mới với kính cường lực phục hồi 200 mét vuông. Tàu lượn siêu tốc có vận tốc nhanh nhất Việt Nam 95 km/h.
+
+Vườn thú Vinpearl Safari
+
+Công viên chăm sóc và bảo tồn động vật bán hoang dã đầu tiên và lớn nhất tại Việt Nam, được xây dựng theo tiêu chuẩn Safari quốc tế và hơn thế nữa. Vinpearl Safari Phú Quốc là “ngôi nhà chung” của hơn 3000 cá thể, thuộc 150 loài động vật khác nhau từ Châu Âu, Châu Mỹ, Nam Phi, v.v. Trong công viên này, các loài động vật được nuôi dưỡng trong điều kiện tốt nhất theo tiêu chuẩn quốc tế.
+
+Tổ hợp Giải trí Corona
+
+Sòng bài đầu tiên và duy nhất mà công dân Việt Nam có thể hợp pháp vào chơi, tự hào là tổ hợp nghỉ dưỡng – giải trí sang trọng Việt Nam và Đông Nam Á.
+
+Sân golf Vinpearl
+
+Nằm giữa khu rừng nguyên sinh tại phía Bắc Phú Quốc, mang đến cho người chơi trải nghiệm trong thiên nhiên trên một hòn đảo thiên đường
+`,
+        image: [
+            require('./../../Assets/Images/RS1.webp'),
+            require('./../../Assets/Images/RS2.webp'),
+            require('./../../Assets/Images/RS3.webp'),
+            require('./../../Assets/Images/RS4.webp'),
+        ]
+    },
+    {
+        title: "Khu Nghỉ Dưỡng Premier Residences Phú Quốc Emerald Bay (Combo 3N2Đ + Vé máy bay + Đưa Đón Sân Bay + Ăn sáng)",
+        time: 'Giá cho 01 người lớn',
+        idTour: "VLT5 – 01",
+        start: ['Theo yêu cầu'],
+        destination: 'Thị Trấn An Thới, Huyện Phú Quốc, Tỉnh Kiên Giang, Việt Nam ',
+        end: '30/06/2024',
+        price: 3999000,
+        status: true,
+        description: ` 
+        Combo 3N2Đ + Vé máy bay + Đưa Đón Sân Bay + Ăn sáng
+Trải nghiệm phải thử ở Khu Nghỉ Dưỡng Premier Residences Phú Quốc Emerald Bay
+Trái tim của khu nghỉ dưỡng là bể bơi trung tâm tràn bờ rộng 5.000 m2 với nhiều cấp độ thoải dần ra phía biển. Từ mép nước hồ bơi, cảm giác với tay ra là có thể chạm vào biển cả.
+
+Từ khu nghỉ dưỡng, Quý khách có thể khám phá thiên đường biển đảo Nam Phú Quốc từ trên cao với cáp treo Hòn Thơm, và tận hưởng những phút giây thư giãn sôi động tại tổ hợp vui chơi giải trí biển Sun World Hon Thom Nature Park.
+
+Khám phá Thị trấn Hoàng Hôn với những show diễn hoành tráng hoặc dạo bước trên Cầu Hôn lãng mạn. 
+`,
+        image: [
+            require('./../../Assets/Images/RS11.webp'),
+            require('./../../Assets/Images/RS12.webp'),
+            require('./../../Assets/Images/RS13.webp'),
+            require('./../../Assets/Images/RS14.webp'),
+        ]
+    },
+    {
+        title: "Sheraton Phú Quốc Long Beach Resort (Combo 3N2Đ | Vé máy bay + Đưa đón sân bay + Buffet sáng + Miễn phí ăn sáng 02 trẻ + Bãi biển riêng)",
+        time: 'Giá cho 01 người lớn',
+        idTour: "VLT5 – 01",
+        start: ['Theo yêu cầu'],
+        destination: ' Bãi Dài, X. Gành Dầu, H. Phú Quốc, T. Kiên Giang, Việt Nam',
+        end: '30/06/2024',
+        price: 4299000,
+        status: true,
+        description: ` 
+
+Trải nghiệm phải thử ở Sheraton Phú Quốc Long Beach Resort
+Tổ hợp Mua sắm Grand World
+
+Nằm trong khu phức hợp nghỉ dưỡng và giải trí Corona & Phú Quốc United Center, với quy mô 85 hecta, sở hữu nhiều công trình kiến trúc nổi bật và hùng vĩ với kiến trúc tinh xảo, những con phố kinh doanh nhộn nhịp, phong cách. Nơi đây còn diễn ra hàng trăm sự kiện và bữa tiệc hoành tráng, tái hiện một loạt các khu giải trí sôi động như Venice, Thượng Hải, Chợ Đêm và nhiều hơn nữa. Tất cả hoạt động không ngừng nghỉ 24 giờ một ngày, 365 ngày một năm, tạo nên một môi trường lễ hội liên tục và bất tận đầy sôi động, tương tự như những thị trấn không ngủ nổi tiếng khắp thế giới.
+
+Công viên chủ đề VinWonders
+
+VinWonders là công viên giải trí đầu tiên tại Việt Nam và là lớn nhất ở Đông Nam Á. Bao gồm 6 khu vực giải trí theo chủ đề độc đáo, có sức chứa 20,000 khách/ngày và hơn 60 trò chơi đẳng cấp thế giới. Bể cá không chứa kim loại với diện tích 15,000 mét vuông. Top 5 bể cá lớn nhất thế giới, tầm nhìn vô cực mới với kính cường lực phục hồi 200 mét vuông. Tàu lượn siêu tốc có vận tốc nhanh nhất Việt Nam 95 km/h.
+
+Vườn thú Vinpearl Safari
+
+Công viên chăm sóc và bảo tồn động vật bán hoang dã đầu tiên và lớn nhất tại Việt Nam, được xây dựng theo tiêu chuẩn Safari quốc tế và hơn thế nữa. Vinpearl Safari Phú Quốc là “ngôi nhà chung” của hơn 3000 cá thể, thuộc 150 loài động vật khác nhau từ Châu Âu, Châu Mỹ, Nam Phi, v.v. Trong công viên này, các loài động vật được nuôi dưỡng trong điều kiện tốt nhất theo tiêu chuẩn quốc tế.
+
+Tổ hợp Giải trí Corona
+
+Sân golf Vinpearl
+
+Nằm giữa khu rừng nguyên sinh tại phía Bắc Phú Quốc, mang đến cho người chơi trải nghiệm trong thiên nhiên trên một hòn đảo thiên đường.
+
+
+`,
+        image: [
+            require('./../../Assets/Images/RS21.webp'),
+            require('./../../Assets/Images/RS22.webp'),
+            require('./../../Assets/Images/RS23.webp'),
+            require('./../../Assets/Images/RS24.webp'),
+        ]
+    },
+    {
+        title: "Khách sạn La Festa Phu Quoc, Curio Collection by Hilton (Combo 3N2Đ + Vé máy bay + Ăn sáng)",
+        time: 'Giá cho 01 người lớn',
+        idTour: "VLT5 – 01",
+        start: ['Theo yêu cầu'],
+        destination: '  Sunset Town, An Thới, Phú Quốc, Kiên Giang 91000, Việt Nam',
+        end: '30/06/2024',
+        price: 3350000,
+        status: true,
+        description: ` 
+
+Trải nghiệm phải thử ở Khách sạn La Festa Phu Quoc, Curio Collection by Hilton
+Tọa lạc tại Thị trấn hoàng hôn (Sunset Town), La Festa Phú Quốc là một lựa chọn hoàn hảo cho những du khách yêu thích nghê thuật với các cung đường mang đậm phong cách Châu Âu, chinh phục 12 điểm check-in xuất sắc giúp tạo ra những bức ảnh đẹp lung linh. Vào lúc hoàng hôn, hãy cùng sải bước trên Cầu Hôn – “kiệt tác kiến trúc” để chiêm ngưỡng các sắc độ rực rỡ của bầu trời Phú Quốc cuối ngày. Khi màn đêm dần buông, hãy sẵn sàng cho sự sôi động và những trải nghiệm ẩm thực đặc sắc tại chợ đêm Vui Fest Bazaar và khép lại một ngày khám phá “đảo ngọc” với show diễn “Kiss of The Sea” hoành tráng cùng những màn pháo hoa đầy mãn nhãn rực sáng cả bầu trời.
+
+
+`,
+        image: [
+            require('./../../Assets/Images/RS31.webp'),
+            require('./../../Assets/Images/RS32.webp'),
+            require('./../../Assets/Images/RS33.webp'),
+            require('./../../Assets/Images/RS34.webp'),
+        ]
+    },
+    {
+        title: "Khu nghỉ dưỡng Wyndham Grand Phú Quốc  (Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Miễn phí trẻ + Gần Grand World)",
+        time: 'Giá cho 01 người lớn',
+        idTour: "VLT5 – 01",
+        start: ['Theo yêu cầu'],
+        destination: ' Bãi Dài, X. Gành Dầu, H. Phú Quốc, T. Kiên Giang, Việt Nam',
+        end: '30/06/2024',
+        price: 4090000,
+        status: true,
+        description: ` 
+Trải nghiệm phải thử ở Khu nghỉ dưỡng Wyndham Grand Phú Quốc
+Tổ hợp Mua sắm Grand World
+
+Nằm trong khu phức hợp nghỉ dưỡng và giải trí Corona & Phú Quốc United Center, với quy mô 85 hecta, sở hữu nhiều công trình kiến trúc nổi bật và hùng vĩ với kiến trúc tinh xảo, những con phố kinh doanh nhộn nhịp, phong cách. Nơi đây còn diễn ra hàng trăm sự kiện và bữa tiệc hoành tráng, tái hiện một loạt các khu giải trí sôi động như Venice, Thượng Hải, Chợ Đêm và nhiều hơn nữa. Tất cả hoạt động không ngừng nghỉ 24 giờ một ngày, 365 ngày một năm, tạo nên một môi trường lễ hội liên tục và bất tận đầy sôi động, tương tự như những thị trấn không ngủ nổi tiếng khắp thế giới.
+
+Tổ hợp Giải trí Corona
+
+Sòng bài đầu tiên và duy nhất mà công dân Việt Nam có thể hợp pháp vào chơi, tự hào sở hữu khu nghỉ dưỡng – giải trí sang trọng nhất Việt Nam và Đông Nam Á.
+
+Công viên chủ đề VinWonders
+
+VinWonders là công viên giải trí đầu tiên tại Việt Nam và là lớn nhất ở Đông Nam Á. Bao gồm 6 khu vực giải trí theo chủ đề độc đáo, có sức chứa 20,000 khách/ngày và hơn 60 trò chơi đẳng cấp thế giới. Bể cá không chứa kim loại với diện tích 15,000 mét vuông. Top 5 bể cá lớn nhất thế giới, tầm nhìn vô cực mới với kính cường lực phục hồi 200 mét vuông. Tàu lượn siêu tốc có vận tốc nhanh nhất Việt Nam 95 km/h.
+
+Vườn thú Vinpearl Safari
+
+Công viên chăm sóc và bảo tồn động vật bán hoang dã đầu tiên và lớn nhất tại Việt Nam, được xây dựng theo tiêu chuẩn Safari quốc tế và hơn thế nữa. Vinpearl Safari Phú Quốc là “ngôi nhà chung” của hơn 3000 cá thể, thuộc 150 loài động vật khác nhau từ Châu Âu, Châu Mỹ, Nam Phi, v.v. Trong công viên này, các loài động vật được nuôi dưỡng trong điều kiện tốt nhất theo tiêu chuẩn quốc tế.
+
+`,
+        image: [
+            require('./../../Assets/Images/RS41.webp'),
+            require('./../../Assets/Images/RS42.webp'),
+            require('./../../Assets/Images/RS43.webp'),
+            require('./../../Assets/Images/RS44.webp'),
+            require('./../../Assets/Images/RS45.webp'),
+        ]
+    },
+    {
+        title: "JW Marriott Phu Quoc Emerald Bay Resort & Spa (Combo 3N2Đ + Vé máy bay + Ăn sáng)",
+        time: 'Giá cho 01 người lớn',
+        idTour: "VLT5 – 01",
+        start: ['Theo yêu cầu'],
+        destination: ' Bãi Khem, Xã An Thới, Huyện Phú Quốc, Tỉnh Kiên Giang, Việt Nam',
+        end: '30/06/2024',
+        price: 7899000,
+        status: true,
+        description: ` 
+
+Trải nghiệm phải thử ở JW Marriott Phu Quoc Emerald Bay Resort & Spa
+Lấy ý tưởng về một ngôi trường đại học trong tưởng tượng: Lamarck University, khu nghỉ dưỡng được xây dựng theo kiến trúc Pháp với trần nhà cao thoáng đãng. Đến với JW Marriott Phú Quốc, du khách không chỉ có cơ hội tham quan những nét kiến trúc độc đáo, đẹp đến say người mà còn được nghe kể những câu chuyện thú vị trong quá trình phát triển trường Đại Học Lamarck cũng như trải nghiệm một "thời khóa biểu" có một không hai từ lớp yoga trên thuyền sáng sớm, đến hành trình đạp xe lên chùa Hộ Quốc hay thú vị với những lớp học nấu ăn, pha chế đầy vui nhộn.
+
+Khu nghỉ dưỡng tọa lạc tại Bãi Khem - nơi có bãi biển đẹp nhất Phú Quốc với cát trắng mịn như muối và nước trong thấy đáy, du khách có thể ra biển chèo thuyền kayak hoàn toàn không tính phí và phơi mình cho tới khi làn da cháy nắng.
+
+Khám phá Thị trấn Hoàng Hôn với những show diễn hoành tráng hay dạo bước trên Cầu Hôn lãng mạn
+
+`,
+        image: [
+            require('./../../Assets/Images/RS51.webp'),
+            require('./../../Assets/Images/RS52.webp'),
+            require('./../../Assets/Images/RS53.webp'),
+            require('./../../Assets/Images/RS54.webp'),
+            require('./../../Assets/Images/RS55.webp'),
+            require('./../../Assets/Images/RS56.webp'),
+
+        ]
+    },
+    {
+        title: "JW Marriott Phu Quoc Emerald Bay Resort & Spa (Combo 3N2Đ + Vé máy bay + Ăn sáng)",
+        time: 'Giá cho 01 người lớn',
+        idTour: "VLT5 – 01",
+        start: ['Theo yêu cầu'],
+        destination: ' Bãi Khem, Xã An Thới, Huyện Phú Quốc, Tỉnh Kiên Giang, Việt Nam',
+        end: '30/06/2024',
+        price: 7899000,
+        status: true,
+        description: ` 
+
+Trải nghiệm phải thử ở JW Marriott Phu Quoc Emerald Bay Resort & Spa
+Lấy ý tưởng về một ngôi trường đại học trong tưởng tượng: Lamarck University, khu nghỉ dưỡng được xây dựng theo kiến trúc Pháp với trần nhà cao thoáng đãng. Đến với JW Marriott Phú Quốc, du khách không chỉ có cơ hội tham quan những nét kiến trúc độc đáo, đẹp đến say người mà còn được nghe kể những câu chuyện thú vị trong quá trình phát triển trường Đại Học Lamarck cũng như trải nghiệm một "thời khóa biểu" có một không hai từ lớp yoga trên thuyền sáng sớm, đến hành trình đạp xe lên chùa Hộ Quốc hay thú vị với những lớp học nấu ăn, pha chế đầy vui nhộn.
+
+Khu nghỉ dưỡng tọa lạc tại Bãi Khem - nơi có bãi biển đẹp nhất Phú Quốc với cát trắng mịn như muối và nước trong thấy đáy, du khách có thể ra biển chèo thuyền kayak hoàn toàn không tính phí và phơi mình cho tới khi làn da cháy nắng.
+
+Khám phá Thị trấn Hoàng Hôn với những show diễn hoành tráng hay dạo bước trên Cầu Hôn lãng mạn
+
+`,
+        image: [
+            require('./../../Assets/Images/RS61.webp'),
+            require('./../../Assets/Images/RS62.webp'),
+            require('./../../Assets/Images/RS63.webp'),
+            require('./../../Assets/Images/RS64.webp'),
+            require('./../../Assets/Images/RS65.webp'),
+            require('./../../Assets/Images/RS66.webp'),
+        ]
+    },
+    {
+        title: "Vinpearl Wonderworld Phú Quốc  (Combo 3N2Đ | Vé máy bay + Villa gia đình bể bơi + Đưa đón + Buffet sáng + Bãi biển riêng )",
+        time: 'Giá cho 01 người lớn',
+        idTour: "VLT5 – 01",
+        start: ['Theo yêu cầu'],
+        destination: ' Xã Gành Dầu, Phú Quốc,, Việt Nam',
+        end: '30/06/2024',
+        price: 4899000,
+        status: true,
+        description: ` 
+
+
+Trải nghiệm phải thử ở Vinpearl Wonderworld Phú Quốc
+Tổ hợp Mua sắm Grand World
+
+Nằm trong khu phức hợp nghỉ dưỡng và giải trí Corona & Phú Quốc United Center, với quy mô 85 hecta, sở hữu nhiều công trình kiến trúc nổi bật và hùng vĩ với kiến trúc tinh xảo, những con phố kinh doanh nhộn nhịp, phong cách. Nơi đây còn diễn ra hàng trăm sự kiện và bữa tiệc hoành tráng, tái hiện một loạt các khu giải trí sôi động như Venice, Thượng Hải, Chợ Đêm và nhiều hơn nữa. Tất cả hoạt động không ngừng nghỉ 24 giờ một ngày, 365 ngày một năm, tạo nên một môi trường lễ hội liên tục và bất tận đầy sôi động, tương tự như những thị trấn không ngủ nổi tiếng khắp thế giới.
+
+Công viên chủ đề VinWonders
+
+VinWonders là công viên giải trí đầu tiên tại Việt Nam và là lớn nhất ở Đông Nam Á. Bao gồm 6 khu vực giải trí theo chủ đề độc đáo, có sức chứa 20,000 khách/ngày và hơn 60 trò chơi đẳng cấp thế giới. Bể cá không chứa kim loại với diện tích 15,000 mét vuông. Top 5 bể cá lớn nhất thế giới, tầm nhìn vô cực mới với kính cường lực phục hồi 200 mét vuông. Tàu lượn siêu tốc có vận tốc nhanh nhất Việt Nam 95 km/h.
+
+Vườn thú Vinpearl Safari
+
+Công viên chăm sóc và bảo tồn động vật bán hoang dã đầu tiên và lớn nhất tại Việt Nam, được xây dựng theo tiêu chuẩn Safari quốc tế và hơn thế nữa. Vinpearl Safari Phú Quốc là “ngôi nhà chung” của hơn 3000 cá thể, thuộc 150 loài động vật khác nhau từ Châu Âu, Châu Mỹ, Nam Phi, v.v. Trong công viên này, các loài động vật được nuôi dưỡng trong điều kiện tốt nhất theo tiêu chuẩn quốc tế.
+
+Tổ hợp Giải trí Corona
+
+Sòng bài đầu tiên và duy nhất mà công dân Việt Nam có thể hợp pháp vào chơi, tự hào là tổ hợp nghỉ dưỡng – giải trí sang trọng Việt Nam và Đông Nam Á.
+
+Sân golf Vinpearl
+
+Nằm giữa khu rừng nguyên sinh tại phía Bắc Phú Quốc, mang đến cho người chơi trải nghiệm trong thiên nhiên trên một hòn đảo thiên đường.
+
+`,
+        image: [
+            require('./../../Assets/Images/RS51.webp'),
+            require('./../../Assets/Images/RS52.webp'),
+            require('./../../Assets/Images/RS53.webp'),
+            require('./../../Assets/Images/RS54.webp'),
+            require('./../../Assets/Images/RS55.webp'),
+            require('./../../Assets/Images/RS56.webp'),
+        ]
+    },
+    {
+        title: "Khu Nghỉ Dưỡng Movenpick Waverly Phú Quốc   (Combo 3N2Đ + Vé Máy Bay + Ăn sáng + Đưa Đón + Chocolate Hour )",
+        time: 'Giá cho 01 người lớn',
+        idTour: "VLT5 – 01",
+        start: ['Theo yêu cầu'],
+        destination: 'Tổ 01, Ông Lang, Cửa Dương, Phú Quốc, Kiên Giang, Việt Nam',
+        end: '30/06/2024',
+        price: 4099000,
+        status: true,
+        description: ` 
+
+Trải nghiệm phải thử ở Khu Nghỉ Dưỡng Movenpick Waverly Phú Quốc
+Là thương hiệu nghỉ dưỡng nổi tiếng đến từ Thụy Sĩ, Movenpick Waverly Phú Quốc được thiết kế theo phong cách đương đại, hài hòa giữa kiến trúc hiện đại và nguồn cảm hứng cổ điển. Với kiến trúc “Modern Tropical” sử dụng tối đa các vật liệu gỗ mộc và chất liệu bản địa tạo cảm giác thân thiện, gần gũi thiên nhiên mà vẫn thư giãn, nhẹ nhàng.
+
+Điểm nhấn tại Movenpick Waverly Phú Quốc chính là trải nghiệm “Chocolate Hour”, khách hàng có thể tự do tận hưởng miễn phí tất cả các loại sô cô la ngọt ngào, hương vị mọi trẻ em không thể chối từ.
+
+
+
+`,
+        image: [
+            require('./../../Assets/Images/RS71.webp'),
+            require('./../../Assets/Images/RS72.webp'),
+            require('./../../Assets/Images/RS73.webp'),
+            require('./../../Assets/Images/RS74.webp'),
+            require('./../../Assets/Images/RS75.webp'),
+            require('./../../Assets/Images/RS76.webp'),
+            require('./../../Assets/Images/RS77.webp'),
+        ]
+    },
+    {
+        title: "Khách sạn VinHolidays Fiesta Phú Quốc (Kỳ Nghỉ 3N2Đ + Bữa sáng + Liền kề Grand World + VinBus | 999.000 VND / Khách )",
+        time: 'Giá cho 01 người lớn',
+        idTour: "VLT5 – 01",
+        start: ['Theo yêu cầu'],
+        destination: 'Bãi Dài, Gành Dầu, Phú Quốc, tỉnh Kiên Giang, Việt Nam',
+        end: '30/06/2024',
+        price: 935000,
+        status: true,
+        description: ` 
+Trải nghiệm phải thử ở Khách sạn VinHolidays Fiesta Phú Quốc
+Tổ hợp Mua sắm Grand World
+
+Nằm trong khu phức hợp nghỉ dưỡng và giải trí Corona & Phú Quốc United Center, với quy mô 85 hecta, sở hữu nhiều công trình kiến trúc nổi bật và hùng vĩ với kiến trúc tinh xảo, những con phố kinh doanh nhộn nhịp, phong cách. Nơi đây còn diễn ra hàng trăm sự kiện và bữa tiệc hoành tráng, tái hiện một loạt các khu giải trí sôi động như Venice, Thượng Hải, Chợ Đêm và nhiều hơn nữa. Tất cả hoạt động không ngừng nghỉ 24 giờ một ngày, 365 ngày một năm, tạo nên một môi trường lễ hội liên tục và bất tận đầy sôi động, tương tự như những thị trấn không ngủ nổi tiếng khắp thế giới.
+
+Công viên chủ đề VinWonders
+
+VinWonders là công viên giải trí đầu tiên tại Việt Nam và là lớn nhất ở Đông Nam Á. Bao gồm 6 khu vực giải trí theo chủ đề độc đáo, có sức chứa 20,000 khách/ngày và hơn 60 trò chơi đẳng cấp thế giới. Bể cá không chứa kim loại với diện tích 15,000 mét vuông. Top 5 bể cá lớn nhất thế giới, tầm nhìn vô cực mới với kính cường lực phục hồi 200 mét vuông. Tàu lượn siêu tốc có vận tốc nhanh nhất Việt Nam 95 km/h.
+
+Vườn thú Vinpearl Safari
+
+Công viên chăm sóc và bảo tồn động vật bán hoang dã đầu tiên và lớn nhất tại Việt Nam, được xây dựng theo tiêu chuẩn Safari quốc tế và hơn thế nữa. Vinpearl Safari Phú Quốc là “ngôi nhà chung” của hơn 3000 cá thể, thuộc 150 loài động vật khác nhau từ Châu Âu, Châu Mỹ, Nam Phi, v.v. Trong công viên này, các loài động vật được nuôi dưỡng trong điều kiện tốt nhất theo tiêu chuẩn quốc tế.
+
+Tổ hợp Giải trí Corona
+
+Sòng bài đầu tiên và duy nhất mà công dân Việt Nam có thể hợp pháp vào chơi, tự hào là tổ hợp nghỉ dưỡng – giải trí sang trọng Việt Nam và Đông Nam Á.
+
+Sân golf Vinpearl
+
+Nằm giữa khu rừng nguyên sinh tại phía Bắc Phú Quốc, mang đến cho người chơi trải nghiệm trong thiên nhiên trên một hòn đảo thiên đường.
+
+
+`,
+        image: [
+            require('./../../Assets/Images/RS81.webp'),
+            require('./../../Assets/Images/RS82.webp'),
+            require('./../../Assets/Images/RS83.webp'),
+            require('./../../Assets/Images/RS84.webp'),
+            require('./../../Assets/Images/RS85.webp'),
+            require('./../../Assets/Images/RS86.webp'),
+            require('./../../Assets/Images/RS87.webp'),
+        ]
+    },
+    {
+        title: "Khu nghỉ dưỡng Novotel Phú Quốc (Combo 3N2Đ + Vé máy bay khứ hồi + Ăn sáng )",
+        time: 'Giá cho 01 người lớn',
+        idTour: "VLT5 – 01",
+        start: ['Theo yêu cầu'],
+        destination: 'Khu phố 5, Đường Bào, Xã Dương Tơ, Huyện Phú Quốc, Tỉnh Kiên Giang, Việt Nam',
+        end: '30/06/2024',
+        price: 1430000,
+        status: true,
+        description: ` 
+
+Trải nghiệm phải thử ở Khu nghỉ dưỡng Novotel Phú Quốc
+Tận hưởng một chuyến du lịch nghỉ dưỡng đúng nghĩa với các tiết mục giải trí thú vị như: Biểu diễn âm nhạc sôi động với DJ, Saxophone, ban nhạc sống tại Sunset Beach Bar từ 17-19:00 hằng ngày. Bên cạnh đó, 18:00 thứ tư hằng tuần còn có thêm hoạt động thắp lửa trại, tạo không khí ấm cúng và kết nối giữa các khách hàng đang lưu trú
+
+Đối với gia đình có trẻ nhỏ hoặc người lớn tuổi, không nên bỏ qua Chợ đêm hải sản (diễn ra mỗi thứ hai và thứ năm, từ 18:30 - 22:00) tọa lạc giữa con đường đến Nhà hàng bên hồ và khu vực spa. Không cần phải di chuyển ra ngoài, thực khách vẫn có thể thưởng thức các món ăn tươi ngon với mức giá vô cùng hợp lý
+
+Hãy đến và cảm nhận thực tế để có những trải nghiệm tuyệt vời của riêng bạn
+
+
+`,
+        image: [
+            require('./../../Assets/Images/RS91.webp'),
+            require('./../../Assets/Images/RS92.webp'),
+            require('./../../Assets/Images/RS93.webp'),
+            require('./../../Assets/Images/RS94.webp'),
+            require('./../../Assets/Images/RS95.webp'),
+            require('./../../Assets/Images/RS96.webp'),
+            require('./../../Assets/Images/RS97.webp'),
+        ]
+    },
+    {
+        title: "Vinpearl Resort & Spa Phú Quốc (Combo 3N2Đ | Vé máy bay + Đưa đón + Buffet sáng + Bãi biển riêng)",
+        time: 'Giá cho 01 người lớn',
+        idTour: "VLT5 – 01",
+        start: ['Theo yêu cầu'],
+        destination: ' Bãi Dài, X. Gành Dầu, H. Phú Quốc, T. Kiên Giang, Việt Nam',
+        end: '30/06/2024',
+        price: 2117000,
+        status: true,
+        description: ` 
+
+Trải nghiệm phải thử ở Vinpearl Resort & Spa Phú Quốc
+Tổ hợp Mua sắm Grand World
+
+Nằm trong khu phức hợp nghỉ dưỡng và giải trí Corona & Phú Quốc United Center, với quy mô 85 hecta, sở hữu nhiều công trình kiến trúc nổi bật và hùng vĩ với kiến trúc tinh xảo, những con phố kinh doanh nhộn nhịp, phong cách. Nơi đây còn diễn ra hàng trăm sự kiện và bữa tiệc hoành tráng, tái hiện một loạt các khu giải trí sôi động như Venice, Thượng Hải, Chợ Đêm và nhiều hơn nữa. Tất cả hoạt động không ngừng nghỉ 24 giờ một ngày, 365 ngày một năm, tạo nên một môi trường lễ hội liên tục và bất tận đầy sôi động, tương tự như những thị trấn không ngủ nổi tiếng khắp thế giới.
+
+Công viên chủ đề VinWonders
+
+VinWonders là công viên giải trí đầu tiên tại Việt Nam và là lớn nhất ở Đông Nam Á. Bao gồm 6 khu vực giải trí theo chủ đề độc đáo, có sức chứa 20,000 khách/ngày và hơn 60 trò chơi đẳng cấp thế giới. Bể cá không chứa kim loại với diện tích 15,000 mét vuông. Top 5 bể cá lớn nhất thế giới, tầm nhìn vô cực mới với kính cường lực phục hồi 200 mét vuông. Tàu lượn siêu tốc có vận tốc nhanh nhất Việt Nam 95 km/h.
+
+Vườn thú Vinpearl Safari
+
+Công viên chăm sóc và bảo tồn động vật bán hoang dã đầu tiên và lớn nhất tại Việt Nam, được xây dựng theo tiêu chuẩn Safari quốc tế và hơn thế nữa. Vinpearl Safari Phú Quốc là “ngôi nhà chung” của hơn 3000 cá thể, thuộc 150 loài động vật khác nhau từ Châu Âu, Châu Mỹ, Nam Phi, v.v. Trong công viên này, các loài động vật được nuôi dưỡng trong điều kiện tốt nhất theo tiêu chuẩn quốc tế.
+
+Tổ hợp Giải trí Corona
+
+Sòng bài đầu tiên và duy nhất mà công dân Việt Nam có thể hợp pháp vào chơi, tự hào là tổ hợp nghỉ dưỡng – giải trí sang trọng Việt Nam và Đông Nam Á.
+
+Sân golf Vinpearl
+
+Nằm giữa khu rừng nguyên sinh tại phía Bắc Phú Quốc, mang đến cho người chơi trải nghiệm trong thiên nhiên trên một hòn đảo thiên đường.
+
+`,
+        image: [
+            require('./../../Assets/Images/RS111.webp'),
+            require('./../../Assets/Images/RS112.webp'),
+            require('./../../Assets/Images/RS113.webp'),
+            require('./../../Assets/Images/RS114.webp'),
+            require('./../../Assets/Images/RS115.webp'),
+            require('./../../Assets/Images/RS116.webp'),
+            require('./../../Assets/Images/RS117.webp'),
+        ]
+    },
+    {
+        title: "Khu nghỉ dưỡng InterContinental Phu Quoc Long Beach (Combo 3N2Đ + Vé máy bay khứ hồi + Đón tiễn)",
+        time: 'Giá cho 01 người lớn',
+        idTour: "VLT5 – 01",
+        start: ['Theo yêu cầu'],
+        destination: ' Bãi Dài, X. Gành Dầu, H. Phú Quốc, T. Kiên Giang, Việt Nam',
+        end: '30/06/2024',
+        price: 7119000,
+        status: true,
+        description: ` 
+        Trải nghiệm phải thử ở Khu nghỉ dưỡng InterContinental Phu Quoc Long Beach
+Sở hữu bờ cát trắng nguyên sơ và bốn bể bơi, resort còn có rất nhiều các hoạt động đặc biệt hằng ngày phù hợp cho mọi thành viên trong gia đình - là điểm đến hoàn hảo cho những ai đang tìm kiếm những chuyến phiêu lưu tràn đầy năng lượng. Quý khách có thể tham khảo thời khóa biểu về các hoạt động cho người lớn TẠI ĐÂY
+
+Ngoài ra, InterContinental Phú Quốc vô cùng chú trọng đến các thiên thần nhỏ, resort có khu ăn sáng được thiết kế thân thiện với trẻ em, các hoạt động hướng đến tư duy sáng tạo và phát triển kỹ năng mềm của trẻ nằm trong chương trình Planet Trekkers (Câu lạc bộ trẻ em) - rộng 250 mét vuông, phòng game hideout, rạp chiếu phim, cùng nhiều tiện ích khác CHI TIẾT
+
+`,
+        image: [
+            require('./../../Assets/Images/RS121.webp'),
+            require('./../../Assets/Images/RS122.webp'),
+            require('./../../Assets/Images/RS123.webp'),
+            require('./../../Assets/Images/RS124.webp'),
+            require('./../../Assets/Images/RS125.webp'),
+            require('./../../Assets/Images/RS126.webp'),
+            require('./../../Assets/Images/RS127.webp'),
+        ]
+    },
+    {
+        title: "Khu nghỉ dưỡng Regent Phú Quốc (Combo 3N2Đ + Vé máy bay khứ hồi + Ăn sáng)",
+        time: 'Giá cho 01 người lớn',
+        idTour: "VLT5 – 01",
+        start: ['Theo yêu cầu'],
+        destination: ' Bãi Dài, X. Gành Dầu, H. Phú Quốc, T. Kiên Giang, Việt Nam',
+        end: '30/06/2024',
+        price: 14119000,
+        status: true,
+        description: ` 
+       rải nghiệm phải thử ở Khu nghỉ dưỡng Regent Phú Quốc
+Bộ sưu tập những dấu ấn đặc biệt tại Regent Phú Quốc giúp mang đến những trải nghiệm xa hoa nhưng vẫn vô cùng tinh tế, khơi dậy sự thư thái và tái tạo nguồn năng lượng mới cho thượng khách.
+
+Không gian được thiết kế cho những trải nghiệm cá nhân, từ trang thiết bị trong phòng ngủ cho đến tiện nghi phòng tắm, từ phong vị ẩm thực của các nhà hàng hay mùi hương, âm nhạc xung quanh khuôn viên đều được tùy chỉnh để thượng khách cảm thấy được thả lỏng tâm trí và dành thời gian cho những điều ý nghĩa nhất trong chuyến nghỉ dưỡng.
+
+Hãy đến và trực tiếp trải nghiệm những cung bậc thăng hoa của cảm xúc.
+
+`,
+        image: [
+            require('./../../Assets/Images/RS131.webp'),
+            require('./../../Assets/Images/RS132.webp'),
+            require('./../../Assets/Images/RS133.webp'),
+            require('./../../Assets/Images/RS134.webp'),
+            require('./../../Assets/Images/RS135.webp'),
+            require('./../../Assets/Images/RS136.webp'),
+            require('./../../Assets/Images/RS137.webp'),
+        ]
+    },
+    {
+        title: "Khu nghỉ dưỡng SOL by Meliá Phú Quốc(Combo 3N2Đ + Vé máy bay khứ hồi +Ăn sáng + Đưa Đón Sân Bay)",
+        time: 'Giá cho 01 người lớn',
+        idTour: "VLT5 – 01",
+        start: ['Theo yêu cầu'],
+        destination: '  Khu 1, Khu du lịch Đức Việt, Khu liên hợp Bãi Trường , Xã Dương Tơ, Đảo Phú Quốc, tỉnh Kiên Giang, Việt Nam',
+        end: '30/06/2024',
+        price: 3399000,
+        status: true,
+        description: ` 
+Trải nghiệm phải thử ở Khu nghỉ dưỡng SOL by Meliá Phú Quốc
+- Đến đây ngoài việc nghỉ ngơi, du khách còn có thể tham gia các hoạt động giải trí thú vị khác như: thư giãn với những chiếc giường Bali hay chiếc võng đầy màu sắc trên bãi biển, quầy bar dưới bể bơi theo kiểu truyền thống Tây Ban Nha, hoặc tham gia nhiều hoạt động ngoài trời lý thú như lướt sóng, chèo lướt ván, lặn hay các chương trình nhạc sống, acoustic và DJ sôi động…
+
+`,
+        image: [
+            require('./../../Assets/Images/RS141.webp'),
+            require('./../../Assets/Images/RS142.webp'),
+            require('./../../Assets/Images/RS143.webp'),
+            require('./../../Assets/Images/RS144.webp'),
+            require('./../../Assets/Images/RS145.webp'),
+            require('./../../Assets/Images/RS146.webp'),
+            require('./../../Assets/Images/RS147.webp'),
+        ]
+    },
+    {
+        title: "Khu Nghỉ Dưỡng Sailing Club Signature Phú Quốc (Combo 3N2Đ + Vé Máy Bay + Ăn sáng + Đưa Đón)",
+        time: 'Giá cho 01 người lớn',
+        idTour: "VLT5 – 01",
+        start: ['Theo yêu cầu'],
+        destination: ' Tổ 6, Ấp Đường Bào, Xã Dương Tơ, Thành phố Phú Quốc, Tỉnh Kiên Giang, Việt Nam',
+        end: '30/06/2024',
+        price: 3399000,
+        status: true,
+        description: ` 
+Combo 3N2Đ + Vé Máy Bay + Ăn sáng + Đưa Đón
+Combo bao gồm
+✈️ Di Chuyển Tiện Lợi: Vé máy bay khứ hồi
+
+🛌 Biệt Thự Sang Trọng: 02 đêm nghỉ dưỡng tại Three Bedroom Pool Villa (Sirius Villa), với thiết kế tối giản, tận dụng ánh sáng tự nhiên và cửa sổ lớn từ trần đến sàn mang lại sự hòa quyện với thiên nhiên và cảm giác thư thái. Tiện nghi đầy đủ gồm máy pha cà phê, bếp hiện đại với máy rửa bát và máy giặt. Khu vườn và hồ bơi riêng biệt tạo không gian thư giãn tối ưu, kết nối hoàn hảo giữa trong nhà và ngoài trời
+
+🚖 Đưa Đón Sân Bay: Dịch vụ đưa đón tiện lợi theo lịch trình cố định của khu nghỉ, đảm bảo sự thuận tiện ngay từ những phút đầu tiên
+
+🍳 Ẩm Thực Tiện Lợi: Bữa sáng buffet hoặc chọn món theo khẩu phần (tùy thuộc vào công suất phòng)
+
+🏊‍♂️ Tiện Ích Vô Tận: Sử dụng không giới hạn hồ bơi chính, phòng tập gym, kids club, wifi và nhiều hơn nữa, tạo nên kỳ nghỉ trọn vẹn
+
+Ghi chú đặc biệt
+- Từ nay đến 30/09/2024: Mỗi kỳ nghỉ lưu trú từ 2 đêm theo tiêu chuẩn villa, quý khách được lựa chọn tặng một bữa tối tại Sandals từ nguyên liệu sẵn có (bao gồm chỉ thức ăn, không bao gồm đồ uống) Hoặc một suất massage body 60 phút. Ưu đãi này không áp dụng cho trẻ em và người lớn phát sinh.
+
+- Từ nay đến 30/06/2024 riêng khách hàng lưu trú 2 đêm khi đặt hạng One Bedroom Pool Villa:
+
++ Tặng 01 Bữa ăn tối/kỳ nghỉ theo nguồn nguyên liệu sẵn có, chỉ gồm thức ăn không gồm nước (Giá phụ thu trẻ em ở cùng phòng chưa gồm các chi phí bữa ăn, khách có thể dùng chung hoặc tự túc nếu gọi thêm) và thưởng thức chương trình biểu diễn Múa Lửa tại Sandals từ 18:30 đến 18:45 (Khuyến khích đặt bàn ăn tối trước)
+
++ Giảm 20% trên thực đơn Gọi món tại nhà hàng Sandals từ 18:00 đến 21:00 (Không áp dụng cho đồ uống có cồn). Chương trình biểu diễn Múa Lửa tại Sandals sẽ diễn ra lúc 18:30 tối mỗi ngày (Khuyến khích đặt bàn ăn tối trước)
+
+Điều kiện áp dụng
+- Đặt tối thiểu 6 khách/căn 3 phòng ngủ
+
+- Áp dụng cho khách Việt Nam
+
+- Thời gian đặt và lưu trú: Từ nay - 30.09.2024
+
+Cuối tuần, Lễ (31.08 - 03.09.2024) và một số ngày cao điểm có phụ thu
+
+Khởi hành từ Hồ Chí Minh
+01/06 → 30/065.299.000đ
+
+01/07 → 31/075.399.000đ
+
+01/08 → 30/084.999.000đ
+
+01/09 → 30/094.899.000đ
+
+Xem lịch khởi hành
+Khởi hành từ Hà Nội
+01/06 → 30/067.099.000đ
+
+01/07 → 31/076.699.000đ
+
+01/08 → 30/086.099.000đ
+
+01/09 → 30/095.399.000đ
+
+Xem lịch khởi hành
+
+`,
+        image: [
+            require('./../../Assets/Images/RS151.webp'),
+            require('./../../Assets/Images/RS152.webp'),
+            require('./../../Assets/Images/RS153.webp'),
+            require('./../../Assets/Images/RS154.webp'),
+            require('./../../Assets/Images/RS155.webp'),
+            require('./../../Assets/Images/RS156.webp'),
+            require('./../../Assets/Images/RS157.webp'),
+        ]
+    },
+    {
+        title: "Khách Sạn Tại Thị Trấn Hoàng Hôn Phú Quốc (Combo 3N2Đ + Vé Máy Bay + Ăn sáng + Đưa Đón)",
+        time: 'Giá cho 01 người lớn',
+        idTour: "VLT5 – 01",
+        start: ['Theo yêu cầu'],
+        destination: '  Thị trấn Hoàng Hôn - Sunset Town Phú Quốc, Phường An Thới, Thành phố Phú Quốc, tỉnh Kiên Giang, Việt Nam',
+        end: '30/06/2024',
+        price: 4399000,
+        status: true,
+        description: ` 
+Tiện ích của Khách Sạn Tại Thị Trấn Hoàng Hôn Phú Quốc
+Wifi / InternetMở cửa 24/7Bar/Club/PubNhà hàng, Khu ăn uống
+Thông tin Khách Sạn Tại Thị Trấn Hoàng Hôn Phú Quốc
+
+Thị trấn Hoàng Hôn trên đảo Phú Quốc, với vị trí đắc địa nhìn ra phía Tây, là địa điểm lý tưởng để ngắm hoàng hôn đẹp nhất Việt Nam. Khi ánh nắng cuối ngày phủ lên bầu trời và biển cả, màu sắc rực rỡ từ cam đến tím hồng tạo nên bức tranh thiên nhiên sống động và hùng vĩ, mời gọi mọi tâm hồn yêu cái đẹp.
+
+Đối với những ai tìm kiếm sự lãng mạn và nghỉ dưỡng đẳng cấp, Thị trấn Hoàng Hôn cung cấp nhiều lựa chọn từ khách sạn giá cả phải chăng cho đến những khách sạn boutique sang trọng. Các khách sạn này còn gần các biểu tượng du lịch nổi tiếng như Cầu Hôn và Sun World Hòn Thơm. Đến với Thị trấn Hoàng Hôn, du khách không chỉ được hòa mình vào không gian yên bình của thiên nhiên mà còn được tận hưởng tiện nghi và dịch vụ tận tâm, hứa hẹn một kỳ nghỉ trọn vẹn và khó quên.
+
+Chính sách của Khách Sạn Tại Thị Trấn Hoàng Hôn Phú Quốc
+
+Thời gian nhận phòng14:00
+Thời gian trả phòng12:00
+Di chuyển
+1. Máy bay là phương tiện đến Phú Quốc phổ biến nhất, hiện đang có 3 hãng hàng không khai thác gồm Vietnam Airlines, Jetstar và VietJetAir. Thời gian bay khoảng: 2 giờ 10 phút khởi hành từ Hà Nội, 60 phút từ TP.HCM, 65 phút từ Cần Thơ và 25 phút từ Rạch Giá.
+Từ sân bay đến Khách Sạn Tại Thị Trấn Hoàng Hôn Phú Quốc mất khoảng 30 phút di chuyển bằng taxi.
+
+2. Tàu hoặc Phà:
+- Tuyến Rạch Giá – Phú Quốc hiện có 4 hãng khai thác gồm tàu Superdong 2-3-4 và tàu Savana Express, thời gian đi khoảng 2 giờ 30 phút.
+- Tuyến Hà Tiên – Phú Quốc có tàu Superdong 1 và tàu cao tốc Hồng Tâm, thời gian đi khoảng 60 phút.
+- Phà: Khởi hành tại bến phà Thạnh Thới (Hà Tiên), dừng tại bến cảng Đá Chồng (Bãi Thơm, Phú Quốc), thời gian đi khoảng hơn 2 giờ.
+Từ bến tàu/phà đến Premier Residences Phú Quốc mất khoảng 1 tiếng 10 phút di chuyển bằng taxi.
+
+Hướng dẫn nhận phòng
+- Tất cả khách hàng sẽ được yêu cầu xuất trình chứng minh thư/hộ chiếu bản gốc đối với khách quốc tịch Việt Nam hoặc hộ chiếu và visa bản gốc hợp lệ đối với khách quốc tịch nước ngoài. Ngoài ra, phải có khách hàng trùng tên với người đại diện trong Phiếu xác nhận đặt phòng của iVIVU.com để thủ tục nhận phòng được nhanh chóng.
+
+- Khách sạn sẽ yêu cầu khoản tiền đặt cọc tại thời điểm nhận phòng, khuyến khích sử dụng tiền mặt hoặc thẻ tín dụng (Credit card).
+
+Hoạt động giải trí
+- Từ Thị Trấn Hoàng Hôn quý khách có thể đến Vinpearland/Safari bằng taxi với thời gian khoảng 60 phút. Tại đây, quý khách sẽ được trải nghiệm công viên nước, khu vui chơi trong nhà, ngoài trời, thủy cung, khu biểu diễn, phố ẩm thực và phố mua sắm đầy thú vị.
+
+- Ngoài ra, hệ thống sinh thái biển tự nhiên đa dạng thuộc quần đảo An Thới ở phía Nam hay hòn Móng Tay và Đồi Mồi ở Bắc Đảo là nơi lý tưởng để du khách khám phá thế giới đại dương, đặc biệt hơn cả là các dải san hô nơi dây được xếp vào bậc nhất Việt Nam về mức độ phong phú với 17 loại cứng, mềm và hải quỳ khác nhau.
+
+- Trải nghiệm tuyến cáp treo Hòn Thơm và quần thể giải trí biển Sun World Hon Thom Nature Park, với các trò chơi kéo dù, phao chuối, lặn ngắm san hô, đi bộ dưới đáy biển, kayak… hứa hẹn đem đến cho du khách một hành trình du ngoạn kỳ thú.
+`,
+        image: [
+            require('./../../Assets/Images/RS161.webp'),
+            require('./../../Assets/Images/RS162.webp'),
+            require('./../../Assets/Images/RS163.webp'),
+            require('./../../Assets/Images/RS164.webp'),
+            require('./../../Assets/Images/RS165.webp'),
+            require('./../../Assets/Images/RS166.webp'),
+            require('./../../Assets/Images/RS167.webp'),
+        ]
+    },
+
+
+
+
+
+
+
+]

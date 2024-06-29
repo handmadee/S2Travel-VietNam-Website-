@@ -1,0 +1,17 @@
+.city-breaks-page .second-hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Assets/Images/CNNNC1.webp);
+}
+
+.city-breaks-page .holiday-plan-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.75)),
+    url(../../Assets/Images/CNNNC1.webp);
+}
+
+.city-breaks-page .recommended-section .container {
+  background-image: url(../../Assets/Images/CNNNC1.webp);
+}
+
+.city-breaks-page .need-inspiration-section {
+  background-image: url(../../Assets/Images/city-breaks-need-inspiration-bg.jpg);
+}
