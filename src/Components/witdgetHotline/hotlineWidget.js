@@ -26,6 +26,17 @@ function HotlineWidget() {
 
                 </div>
             </a>
+            <a class="hotline hotline2" href="tel:0788067999">
+                <i class="fas fa-phone-alt"></i>
+                <div>
+
+                    <p>GIÁM ĐỐC KINH DOANH</p>
+                    <span>
+                        0788.067.999
+                    </span>
+
+                </div>
+            </a>
             <a href="https://zalo.me/0971691414" class="zalo" target="_blank" rel="noreferrer">
                 <img src={require('./../../Assets/Images/zalo.png')} alt="zalo" />
             </a>

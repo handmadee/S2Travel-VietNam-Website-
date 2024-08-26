@@ -103,6 +103,9 @@ a {
 .hotline-widget .hotline1 {
   left: 270px !important;
 }
+.hotline-widget .hotline2 {
+  left: 465px !important;
+}
 .map {
   z-index: 99;
 }
